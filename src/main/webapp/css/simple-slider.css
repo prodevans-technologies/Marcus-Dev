@@ -1,6 +1,70 @@
-.slider {
-  width: 280px;
+/* 1. smartphones, iPhone, portrait 480x320 phones */
+
+@media (min-width:319px)
+{
+    .slider {
+  width: 200px;
+    }
+	
 }
+
+/* 2. portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+@media (min-width:481px)
+{
+    .slider {
+  width: 400px;
+    }
+}
+
+/* 3. portrait tablets, portrait iPad etc */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+{
+    .slider {
+  width: 400px;
+    }
+}
+
+/* 3. landscape tablets, landscape iPad etc */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+{
+   .slider {
+  width: 400px;
+    }
+}
+
+/* 4. HD laptops and desktops */
+
+@media (min-width:961px)
+{
+   .slider {
+  width: 400px;
+    } 	
+}
+
+/* 5. FHD display */
+
+@media only screen and (min-width : 1824px)
+{
+   .slider {
+  width: 400px;
+    } 
+}
+
+/* 6. 4K and larger displays*/
+
+@media only screen and (min-width : 1921px)
+{
+   .slider {
+  width: 400px;
+    } 
+}
+
+/* ******* End of MediaQueries ****** */
+
+
 
 .slider > .dragger {
   background: #4C69AB;

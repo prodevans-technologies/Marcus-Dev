@@ -6,7 +6,7 @@
 {
     h1
     {
-        font-size: 3.5rem;
+        font-size: 24px;
     }
     h2
     {
@@ -18,11 +18,11 @@
     }
     h4
     {
-        font-size: 2rem;
+        font-size: 14px;
     }
     p
     {
-        font-size: 2rem;
+        font-size: 14px;
     }
     .plans-sub-header
     {
@@ -40,20 +40,29 @@
     {
         font-size: 25px;
     }
+	
+	.sec2blk_eq_ht {
+    
+    display: block;
 
-    .sec2blk_eq_ht {
-
-        display: block;
-    }
-    .plan_rs
-    {
-        font-size: 40px;
-    }		
-
-    .cube-col-height
-    {
-        height:300px;
-    }
+					}
+	.plan_rs
+	{
+	font-size: 40px;
+	}		
+	
+	.cube-col-height
+{
+	height:300px;
+	
+}
+	.logo-size
+	{
+	max-width:75px; 
+	margin-top: -10px;	
+		
+	}
+	
 }
 
 /* 2. portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -80,17 +89,17 @@
     {
         font-size: 19px;
     }
-
-    .sec2blk_eq_ht {
-
-        display: block;
-    }
-
-    .plan_rs
-    {
-        font-size:50px;
-    }		
-
+	
+	.sec2blk_eq_ht {
+    
+    display: block;
+	}
+	
+	.plan_rs
+	{
+	font-size:50px;
+	}		
+	
 }
 
 /* 3. portrait tablets, portrait iPad etc */
@@ -137,10 +146,17 @@
     {
         min-height: 478px;
     }
-    .plan_rs
-    {
-        font-size:50px;
-    }	
+	.plan_rs
+	{
+	font-size:50px;
+	}	
+	
+	.logo-size
+	{
+	max-width:140px; 
+	margin-top: -45px;	
+		
+	}
 }
 
 /* 3. landscape tablets, landscape iPad etc */
@@ -171,6 +187,9 @@
     {
         min-height: 478px;
     }
+	
+	
+	
 }
 
 /* 4. HD laptops and desktops */
@@ -217,13 +236,13 @@
     {
         min-height: 390px;
     }
-    .logo-adjust
+   /* .logo-adjust
     {
         max-height: 120px;
         max-width: 120px;
         padding-left: 10px;
         padding-bottom: 10px;
-    }
+    } */
     .flex-row.row
     {
         display: flex;
@@ -235,22 +254,29 @@
         flex-direction: column;
     }
     .flex-row.row:after, 
-    .flex-row.row:before
+	.flex-row.row:before
     {
         display: flex;
     }
-
-    .sec2blk_eq_ht {
-
-        display:block;
-    }
-
-    .cube-col-height
-    {
-        height:400px;
-
-    }
-
+	
+	.sec2blk_eq_ht {
+    
+    display:block;
+	}
+	
+	.cube-col-height
+{
+	height:400px;
+	
+}
+	
+	.logo-size
+	{
+	max-width:140px; 
+	margin-top: -45px;	
+		
+	}
+	
 }
 
 /* 5. FHD display */
@@ -351,7 +377,7 @@
 
 /* 
 
-Puzzle Template stuff
+Template stuff
 
 */
 
@@ -375,14 +401,14 @@ a:focus
 
 p
 {
-    /*  margin: 0 0 20px; */
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+  /*  margin: 0 0 20px; */
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 }
 
 h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 }
 
 .tm-image
@@ -400,7 +426,12 @@ h1{
     z-index: 111;
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
-    padding: 35px 0px;
+    /* padding: 25px 0px; */
+	padding: 50px 0px;
+	
+	
+	
+	
 }
 
 .navbar-toggle
@@ -414,7 +445,7 @@ h1{
     padding: 10px 10px;
     background-color: #006699;
     border: none;
-    font-weight: bold;
+    font-weight: 300;
     display: none;
 }
 
@@ -428,7 +459,7 @@ h1{
 .navbar-brand:hover,
 .navbar-brand:focus
 {
-    color: #93FAFF;
+    color: #F44336;
 }
 
 .fixed-header ul
@@ -441,7 +472,8 @@ h1{
 .fixed-header ul li
 {
     display: inline-block;
-    padding: 15px 0px;
+   /* padding: 15px 0px; */
+   padding: 30px 0px;
 }
 
 /* menu font */
@@ -452,7 +484,9 @@ h1{
     color: grey;
     font-size: 14px;
     font-weight: 300;
-    padding: 10px 30px 0;
+    /* padding: 10px 30px 0; */
+	padding: 10px 10px 0;
+	
 }
 
 /* menu underline */
@@ -461,7 +495,7 @@ h1{
 .fixed-header ul li .current
 {
     color: black;
-    border-bottom: 2px solid #93FAFF;
+    border-bottom: 2px solid #F44336;
 }
 
 .fixed-header
@@ -471,8 +505,12 @@ h1{
 
 .fixed-header.scroll
 {
-    background: rgba(2, 61, 105, 0.80);
-    padding: 0;
+    background: #ffffff;
+    /* padding: 0; */
+	padding-top: 35px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
 }
 
 .fixed-header.scroll .navbar-brand
@@ -486,16 +524,16 @@ h1{
 }
 
 .text-container {
-
+    
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .flexbox {
@@ -503,11 +541,11 @@ h1{
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 @media screen and (max-width:1199px)
@@ -663,7 +701,8 @@ h1{
     .main-menu ul
     {
         width: 100%;
-        background-color: #023D69;
+        /* background-color: #023D69; */
+		background-color: #ffffff;
     }
     .main-menu
     {
@@ -671,7 +710,7 @@ h1{
         transition: max-height 0.3s;
         overflow: hidden;
     }
-    /* http://css3.bradshawenterprises.com/animating_height/ */
+/* http://css3.bradshawenterprises.com/animating_height/ */
     .main-menu.show
     {
         max-height: 250px;
@@ -771,17 +810,17 @@ h1{
 
 .sec2blktxt
 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
     font-size: 25px;
     text-align: center;
-
+	
 }
 
 .sec2blkpara
 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
     font-size: 18px;
     text-align: center;
 }
@@ -800,18 +839,19 @@ h1{
 
 .plan_rs
 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+   
     text-align: center;
-    color: #0072ce;
-
+    color: #0066cc;
+    
 }
 
 .sec2hd2
 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    
+    font-weight: 100;
     text-align: center;
 }
 
@@ -838,45 +878,38 @@ h1{
     background-color: #ebebeb;
 }
 
-
-.default-font
-{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
-
-body{
-    margin:0;
-    padding:0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight:300;
-}
-
-p{
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight:300;
-}
-
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Roboto', sans-serif;
-    font-weight:100;
-}
-
-.headerv{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 28pt;
-}
 /* section 1 */
 
+.buttoncenter {
+   display: -webkit-flex;
+    display: flex;
+   justify-content:center;
+   padding-bottom:10px;
+}
+
+/* end of section 1 */
+
+.vplans{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+.vfont{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.vcenter{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
 .buttonv
     {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 2rem;
     border-radius: 0px;
     letter-spacing: normal;
     word-spacing: normal;
@@ -885,17 +918,10 @@ h1,h2,h3,h4,h5,h6{
     background-color: #F44336;
     border-color: #F44336;
     }
-.buttoncenter {
-    display: -webkit-flex;
-    display: flex;
-    justify-content:center;
-    padding-bottom:10px;
-    
-}
-
-/* end of section 1 */
-
-
+	
+	
+	
+	
 
 /* footer */
 
@@ -903,7 +929,7 @@ h1,h2,h3,h4,h5,h6{
 {
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     padding-bottom: 0;
     color: #000000;
     height: auto;
