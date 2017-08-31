@@ -725,8 +725,8 @@ font-family: 'Open Sans', sans-serif;
     }
     .main-menu ul li a
     {
-        padding: 0px 0px;
-        width: 100%;
+        padding: 0px 5px;
+       /* width: 100%; */
         float: left;
     }
     #home
@@ -783,7 +783,12 @@ font-family: 'Open Sans', sans-serif;
 
 /* old css */
 
-
+.btn-xl{
+	border-radius:1px;
+}
+.btn-xl_sec2{
+	border-radius:1px;
+}
 
 .sec2row
 {
@@ -807,7 +812,11 @@ font-family: 'Open Sans', sans-serif;
 {
     text-align: center;
 }
-
+a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
 .sec2blktxt
 {
     font-family: 'Open Sans', sans-serif;
@@ -873,8 +882,8 @@ font-family: 'Open Sans', sans-serif;
 
 .sec7row
 {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     background-color: #ebebeb;
 }
 
@@ -919,7 +928,9 @@ font-family: 'Open Sans', sans-serif;
     border-color: #F44336;
     }
 	
-	
+    .vpadding{
+        padding-left: 5px;
+    }	
 	
 	
 
@@ -990,3 +1001,64 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /* end of footer */
+
+
+/*FAQ*/
+/*faq*/
+
+.faqheader
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 100;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+.faaqheaderpadding
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.faqrow
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.faqp
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px 0 0;
+}
+
+.faqh
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 40px 0 10px;
+}
+
+.faqp1
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px 0 20px;
+}
+
+
+/*FAQ END*/
