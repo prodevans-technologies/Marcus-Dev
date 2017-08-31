@@ -1034,7 +1034,7 @@ a{
 {
     font-family: 'Open Sans', sans-serif;
     color: #000000;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 300;
     line-height: 20px;
     padding: 10px 0 0;
@@ -1063,6 +1063,7 @@ a{
 
 /*FAQ END*/
 
+/*text and text area contact page*/
 input[type=text] {
             width: 100%;
             padding: 12px 0px;
@@ -1072,15 +1073,11 @@ input[type=text] {
             border-bottom: 1px solid #e2e2e2;
             font-family: 'Open Sans', sans-serif;
             color: #000000;
-            font-size: 20px;
+            font-size: 19px;
             font-weight: 300;
         }
 
-        #map {
-            width: 500px;
-            height: 250px;
-            background-color: grey;
-        }
+        
         textarea {
              padding: 12px 20px;
             margin: 8px 0;
@@ -1088,6 +1085,14 @@ input[type=text] {
             width:100%;
             font-family: 'Open Sans', sans-serif;
             color: #000000;
-            font-size: 20px;
+            font-size: 19px;
             font-weight: 300;
+        }
+        
+        /*Map*/
+        
+        #map {
+            width: 500px;
+            height: 250px;
+            background-color: grey;
         }
