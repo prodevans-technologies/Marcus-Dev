@@ -40,29 +40,29 @@
     {
         font-size: 25px;
     }
-	
-	.sec2blk_eq_ht {
-    
-    display: block;
 
-					}
-	.plan_rs
-	{
-	font-size: 40px;
-	}		
-	
-	.cube-col-height
-{
-	height:300px;
-	
-}
-	.logo-size
-	{
-	max-width:75px; 
-	margin-top: -10px;	
-		
-	}
-	
+    .sec2blk_eq_ht {
+
+        display: block;
+
+    }
+    .plan_rs
+    {
+        font-size: 40px;
+    }		
+
+    .cube-col-height
+    {
+        height:300px;
+
+    }
+    .logo-size
+    {
+        max-width:75px; 
+        margin-top: -10px;	
+
+    }
+
 }
 
 /* 2. portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -89,17 +89,17 @@
     {
         font-size: 19px;
     }
-	
-	.sec2blk_eq_ht {
-    
-    display: block;
-	}
-	
-	.plan_rs
-	{
-	font-size:50px;
-	}		
-	
+
+    .sec2blk_eq_ht {
+
+        display: block;
+    }
+
+    .plan_rs
+    {
+        font-size:50px;
+    }		
+
 }
 
 /* 3. portrait tablets, portrait iPad etc */
@@ -146,17 +146,17 @@
     {
         min-height: 478px;
     }
-	.plan_rs
-	{
-	font-size:50px;
-	}	
-	
-	.logo-size
-	{
-	max-width:140px; 
-	margin-top: -45px;	
-		
-	}
+    .plan_rs
+    {
+        font-size:50px;
+    }	
+
+    .logo-size
+    {
+        max-width:120px; 
+        margin-top: -45px;	
+
+    }
 }
 
 /* 3. landscape tablets, landscape iPad etc */
@@ -187,9 +187,9 @@
     {
         min-height: 478px;
     }
-	
-	
-	
+
+
+
 }
 
 /* 4. HD laptops and desktops */
@@ -236,13 +236,13 @@
     {
         min-height: 390px;
     }
-   /* .logo-adjust
-    {
-        max-height: 120px;
-        max-width: 120px;
-        padding-left: 10px;
-        padding-bottom: 10px;
-    } */
+    /* .logo-adjust
+     {
+         max-height: 120px;
+         max-width: 120px;
+         padding-left: 10px;
+         padding-bottom: 10px;
+     } */
     .flex-row.row
     {
         display: flex;
@@ -254,29 +254,29 @@
         flex-direction: column;
     }
     .flex-row.row:after, 
-	.flex-row.row:before
+    .flex-row.row:before
     {
         display: flex;
     }
-	
-	.sec2blk_eq_ht {
-    
-    display:block;
-	}
-	
-	.cube-col-height
-{
-	height:400px;
-	
-}
-	
-	.logo-size
-	{
-	max-width:140px; 
-	margin-top: -45px;	
-		
-	}
-	
+
+    .sec2blk_eq_ht {
+
+        display:block;
+    }
+
+    .cube-col-height
+    {
+        height:400px;
+
+    }
+
+    .logo-size
+    {
+        max-width:120px; 
+        margin-top: -45px;	
+
+    }
+
 }
 
 /* 5. FHD display */
@@ -401,13 +401,13 @@ a:focus
 
 p
 {
-  /*  margin: 0 0 20px; */
-  font-family: 'Open Sans', sans-serif;
+    /*  margin: 0 0 20px; */
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
 }
 
 h1{
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
 }
 
@@ -427,11 +427,11 @@ font-family: 'Open Sans', sans-serif;
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     /* padding: 25px 0px; */
-	padding: 50px 0px;
-	
-	
-	
-	
+    padding: 50px 0px;
+
+
+
+
 }
 
 .navbar-toggle
@@ -472,8 +472,8 @@ font-family: 'Open Sans', sans-serif;
 .fixed-header ul li
 {
     display: inline-block;
-   /* padding: 15px 0px; */
-   padding: 30px 0px;
+    /* padding: 15px 0px; */
+    padding: 30px 0px;
 }
 
 /* menu font */
@@ -485,8 +485,8 @@ font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 300;
     /* padding: 10px 30px 0; */
-	padding: 10px 10px 0;
-	
+    padding: 10px 10px 0;
+
 }
 
 /* menu underline */
@@ -507,10 +507,10 @@ font-family: 'Open Sans', sans-serif;
 {
     background: #ffffff;
     /* padding: 0; */
-	padding-top: 35px;
-	padding-bottom:0px;
-	padding-left:0px;
-	padding-right:0px;
+    padding-top: 35px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
 }
 
 .fixed-header.scroll .navbar-brand
@@ -524,16 +524,16 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .text-container {
-    
+
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .flexbox {
@@ -541,11 +541,11 @@ font-family: 'Open Sans', sans-serif;
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 @media screen and (max-width:1199px)
@@ -702,7 +702,7 @@ font-family: 'Open Sans', sans-serif;
     {
         width: 100%;
         /* background-color: #023D69; */
-		background-color: #ffffff;
+        background-color: #ffffff;
     }
     .main-menu
     {
@@ -710,7 +710,7 @@ font-family: 'Open Sans', sans-serif;
         transition: max-height 0.3s;
         overflow: hidden;
     }
-/* http://css3.bradshawenterprises.com/animating_height/ */
+    /* http://css3.bradshawenterprises.com/animating_height/ */
     .main-menu.show
     {
         max-height: 250px;
@@ -726,7 +726,7 @@ font-family: 'Open Sans', sans-serif;
     .main-menu ul li a
     {
         padding: 0px 5px;
-       /* width: 100%; */
+        /* width: 100%; */
         float: left;
     }
     #home
@@ -784,10 +784,10 @@ font-family: 'Open Sans', sans-serif;
 /* old css */
 
 .btn-xl{
-	border-radius:1px;
+    border-radius:1px;
 }
 .btn-xl_sec2{
-	border-radius:1px;
+    border-radius:1px;
 }
 
 .sec2row
@@ -823,7 +823,7 @@ a{
     font-weight: 100;
     font-size: 25px;
     text-align: center;
-	
+
 }
 
 .sec2blkpara
@@ -850,16 +850,16 @@ a{
 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
-   
+
     text-align: center;
     color: #0066cc;
-    
+
 }
 
 .sec2hd2
 {
     font-family: 'Open Sans', sans-serif;
-    
+
     font-weight: 100;
     text-align: center;
 }
@@ -890,33 +890,33 @@ a{
 /* section 1 */
 
 .buttoncenter {
-   display: -webkit-flex;
+    display: -webkit-flex;
     display: flex;
-   justify-content:center;
-   padding-bottom:10px;
+    justify-content:center;
+    padding-bottom:10px;
 }
 
 /* end of section 1 */
 
 .vplans{
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
     text-align: center;
 }
 .vfont{
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: center;
 }
 
 .vcenter{
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: center;
 }
 .buttonv
-    {
+{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     border-radius: 0px;
@@ -926,13 +926,13 @@ a{
     text-shadow: none;
     background-color: #F44336;
     border-color: #F44336;
-    }
-	
-    .vpadding{
-        padding-left: 5px;
-    }	
-	
-	
+}
+
+.vpadding{
+    padding-left: 5px;
+}	
+
+
 
 /* footer */
 
@@ -1065,34 +1065,66 @@ a{
 
 /*text and text area contact page*/
 input[type=text] {
-            width: 100%;
-            padding: 12px 0px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: none;
-            border-bottom: 1px solid #e2e2e2;
-            font-family: 'Open Sans', sans-serif;
-            color: #000000;
-            font-size: 19px;
-            font-weight: 300;
-        }
+    width: 100%;
+    padding: 12px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 300;
+}
 
-        
-        textarea {
-             padding: 12px 20px;
-            margin: 8px 0;
-            border: 1px solid #e2e2e2; 
-            width:100%;
-            font-family: 'Open Sans', sans-serif;
-            color: #000000;
-            font-size: 19px;
-            font-weight: 300;
-        }
-        
-        /*Map*/
-        
-        #map {
-            width: 500px;
-            height: 250px;
-            background-color: grey;
-        }
+
+textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #e2e2e2; 
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+/*Map*/
+#map {
+    width: 500px;
+    height: 250px;
+    background-color: grey;
+}
+
+/*Floating button*/
+#floating-button{
+  width: 70px;
+  height: 55px;
+  border-radius: 0%;
+  background: #db4437;
+  position: fixed;
+  top: 150px;
+  right: 0px;
+  cursor: pointer;
+  
+  
+}
+
+.plus{
+  color: white;
+  position: absolute;
+  top: 0;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 8px;
+  font-size: 6px;
+   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+

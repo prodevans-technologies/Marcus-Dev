@@ -10,7 +10,7 @@
     <link href="css/simple-slider.css" rel="stylesheet" type="text/css" />
     <link href="css/simple-slider-volume.css" rel="stylesheet" type="text/css" /> 
     <!-- ONE8  -->     
-    
+
     <title>ONE8 vanilla</title>     
 </head> 
 <body> 
@@ -23,7 +23,7 @@
                     <span class="icon-bar"></span> 
                 </button>                 
 
-                <a class="navbar-brand pull-left vlogo" rel="home" href="index.html"> 
+                <a class="external navbar-brand pull-left vlogo" rel="home" href="index.html"> 
 
                     <img class="logo-size" src="images/newlogo.png">
                 </a>
@@ -121,56 +121,100 @@
             <div class="col-md-9 buttonright" align="right">
                 <button type="button" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
             </div>
-           
             <div class="row row-white" style="padding-bottom:30px;"> </div>
-    </div>                    
-</section>
+        </section>
+       <div id="container-floating">
+            <div id="floating-button" data-toggle="tooltip">
+                <p class="plus valign" style="padding-top: 8px;" >
+                    <img src="images/wifi.png" height="18" width="18" />
+                    <br>
+                    <a class="external" style="color: #ffffff; font-size: 10px;" href="newconnection.html">
+                        New
+                        Connection
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>  <!-- Main container end -->   
 
+    <!-- Footer -->
 
-</div>  <!-- Main container end -->   
-
-<!-- Footer -->
-
-<div class="container-fluid nopadding">
-    <div class="row" style="background-color:#ebebeb;">
-        <div class="col-md-12">
-            <footer>
-                <div class="footer-bottom">
-                    <div  >
-                        <p class="pull-left" style="font-size:13px;" > &copy; COPYRIGHT ONE8 TECHNOLOGIES <script type="text/JavaScript">document.write(new Date().getFullYear());</script></p>
-                        <div class="pull-right">
-                            <ul class="nav nav-pills payments" style="font-size:13px;">
-                                <li><a style="color: #000" href="faq.html">FAQ</a></li>
-                                <li><a style="color: #000" href="tc.html">TERMS AND CONDITION</a></li>
-                                <li><a style="color: #000" href="pp.html">PRIVACY POLICY</a></li>
-                                <li><a style="color: #000" href="rc.html">REFUND AND CANCELLATION</a></li>
-                                <li><a style="color: #000" href="contact.html">CONTACT US</a></li>
-                            </ul>                                     
+    <div class="container-fluid nopadding">
+        <div class="row" style="background-color:#ebebeb;">
+            <div class="col-md-12">
+                <footer>
+                    <div class="footer-bottom">
+                        <div  >
+                            <p class="pull-left" style="font-size:13px;" > &copy; COPYRIGHT ONE8 TECHNOLOGIES <script type="text/JavaScript">document.write(new Date().getFullYear());</script></p>
+                            <div class="pull-right">
+                                <ul class="nav nav-pills payments" style="font-size:13px;">
+                                    <li><a style="color: #000" href="faq.html">FAQ</a></li>
+                                    <li><a style="color: #000" href="tc.html">TERMS AND CONDITION</a></li>
+                                    <li><a style="color: #000" href="pp.html">PRIVACY POLICY</a></li>
+                                    <li><a style="color: #000" href="rc.html">REFUND AND CANCELLATION</a></li>
+                                    <li><a style="color: #000" href="contact.html">CONTACT US</a></li>
+                                </ul>                                     
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!--/.footer-bottom-->                         
-            </footer>
+                    <!--/.footer-bottom-->                         
+                </footer>
+            </div>
         </div>
     </div>
-</div>
-<script>
-    function initMap() {
-        var uluru = {lat: 12.9024492, lng: 77.6318219};
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
-            center: uluru
+
+    <script>
+        function initMap() {
+            var uluru = {lat: 12.9024492, lng: 77.6318219};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARxxQnfCfgZmu_wgwEKNAf-KIEUM0oCu8&callback=initMap">
+    </script>
+    <script src="js/jquery.min.js"></script>     
+    <script src="js/bootstrap.min.js"></script>     
+    <script src="js/jquery.singlePageNav.min.js"></script>     
+    <script src="js/simple-slider.js"></script>
+    <script>
+
+        // Check scroll position and add/remove background to navbar
+        function checkScrollPosition() {
+            if ($(window).scrollTop() > 50) {
+                $(".fixed-header").addClass("scroll");
+            } else {
+                $(".fixed-header").removeClass("scroll");
+            }
+        }
+
+        $(document).ready(function () {
+            // Single page nav
+            $('.fixed-header').singlePageNav({
+                offset: 59,
+                filter: ':not(.external)',
+                updateHash: true
+            });
+
+            checkScrollPosition();
+
+            // nav bar
+            $('.navbar-toggle').click(function () {
+                $('.main-menu').toggleClass('show');
+            });
+
+            $('.main-menu a').click(function () {
+                $('.main-menu').removeClass('show');
+            });
         });
-        var marker = new google.maps.Marker({
-            position: uluru,
-            map: map
+
+        $(window).on("scroll", function () {
+            checkScrollPosition();
         });
-    }
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARxxQnfCfgZmu_wgwEKNAf-KIEUM0oCu8&callback=initMap">
-</script>
-<script src="js/jquery.min.js"></script>     
-<script src="js/bootstrap.min.js"></script>     
-<script src="js/jquery.singlePageNav.min.js"></script>     
-<script src="js/simple-slider.js"></script>
+    </script>     
 </body>
