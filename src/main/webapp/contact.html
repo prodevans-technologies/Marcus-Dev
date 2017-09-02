@@ -163,58 +163,11 @@
         </div>
     </div>
 
-    <script>
-        function initMap() {
-            var uluru = {lat: 12.9024492, lng: 77.6318219};
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
-                center: uluru
-            });
-            var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
-            });
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARxxQnfCfgZmu_wgwEKNAf-KIEUM0oCu8&callback=initMap">
-    </script>
+   <script src="js/map.js"></script>  
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARxxQnfCfgZmu_wgwEKNAf-KIEUM0oCu8&callback=initMap"></script>
     <script src="js/jquery.min.js"></script>     
     <script src="js/bootstrap.min.js"></script>     
     <script src="js/jquery.singlePageNav.min.js"></script>     
     <script src="js/simple-slider.js"></script>
-    <script>
-
-        // Check scroll position and add/remove background to navbar
-        function checkScrollPosition() {
-            if ($(window).scrollTop() > 50) {
-                $(".fixed-header").addClass("scroll");
-            } else {
-                $(".fixed-header").removeClass("scroll");
-            }
-        }
-
-        $(document).ready(function () {
-            // Single page nav
-            $('.fixed-header').singlePageNav({
-                offset: 59,
-                filter: ':not(.external)',
-                updateHash: true
-            });
-
-            checkScrollPosition();
-
-            // nav bar
-            $('.navbar-toggle').click(function () {
-                $('.main-menu').toggleClass('show');
-            });
-
-            $('.main-menu a').click(function () {
-                $('.main-menu').removeClass('show');
-            });
-        });
-
-        $(window).on("scroll", function () {
-            checkScrollPosition();
-        });
-    </script>     
+   <script src="js/nav.js"></script>   
 </body>
