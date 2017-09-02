@@ -1128,3 +1128,35 @@ textarea {
   color: #ffffff;
 }
 
+/*dropdown*/
+
+.styled-select {
+   height: 29px;
+   overflow: hidden;
+   
+}
+
+.styled-select select {
+   background: transparent;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+  
+}
+
+.styled-select.slate {
+   background: #ffffff;
+   height: 34px;
+   
+}
+
+.styled-select.slate select {
+   border: none;
+   font-size: 16px;
+   height: 34px;
+}
+/* Colors: Background */
+.slate   { background-color: #ddd; }
+
+/* Colors: Text */
+.slate select   { color: #000; }
