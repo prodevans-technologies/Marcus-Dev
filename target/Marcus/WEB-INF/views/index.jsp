@@ -60,7 +60,7 @@
                             Welcome to the network that never stops.</p>
                         <div class="row">
                             <div class="col-md-12 buttoncenter">
-                                <a class="external"  href="newconnection.html"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>  
+                                <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>  
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                         <p class="fup-font-size text-align-center"> &bull; <span id="slidertextspeed" /></p> 
                         <p class="sec2blkpara text-align-center"> &bull; Exclusive of GST</p>
                         <div class="col-md-12 text-center sec2btnpadding">
-                            <a class="external"  href="newconnection.html"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                          
+                            <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                          
                         </div>
                     </div>
                     <div class="col-md-1"> </div>
@@ -148,7 +148,7 @@
                             <p class="sec2blktxt vplans" style="margin-bottom: -5px; padding-top:0px;"> > <span id="dslidertextdata"> </span>&nbsp; &bull;<span id="dslidertextspeed"></span></p>
                             <p class="sec2slidetotext vplans"> &bull; Exclusive of GST</p>
                             <div class="col-md-12 text-center sec2btnpadding" style="padding-top:30px;">
-                                <a class="external"  href="newconnection.html"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                            
+                                <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                            
                             </div>
                         </div>
                         <div class="col-md-1"> 
@@ -195,7 +195,7 @@
                     <h1 class="h1-font font-black text-align-center">NO HIDDEN COSTS</h1> 
                     <p style="text-align:center;">What you see is what you get. Our plans are transparent and so are our bills.</p> 
                     <div class="col-md-12 buttoncenter">
-                        <a class="external"  href="newconnection.html"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>
+                        <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>
                     </div>
                 </div>
                 <!-- <div class="col-md-5">
@@ -271,7 +271,7 @@
                         <p style="text-align:center;">The out-of-the-box internet experience that fits neatly in one</p>
                         <div class="row" style="padding-top:10px; padding-bottom:10px;">
                             <div class="col-md-12 buttoncenter">
-                                <a class="external"  href="newconnection.html"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>
+                                <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>
                             </div>
                         </div>
                     </div>
@@ -288,7 +288,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 buttoncenter">
-                    <a class="external"  href="contact.html"><button type="button" class="btn btn-danger btn-xl buttonv">NEED HELP?</button></a>
+                    <a class="external"  href="${pageContext.request.contextPath }/contactus"><button type="button" class="btn btn-danger btn-xl buttonv">NEED HELP?</button></a>
                 </div>
             </div>
         </section>
