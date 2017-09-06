@@ -102,7 +102,8 @@
     
     <!-- Footer -->
     <jsp:include page="components/footer.jsp"></jsp:include>
-    
+    <script src="js/map.js"></script>  
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARxxQnfCfgZmu_wgwEKNAf-KIEUM0oCu8&callback=initMap"></script>
     <script src="js/jquery.min.js"></script>     
     <script src="js/bootstrap.min.js"></script>     
     <script src="js/jquery.singlePageNav.min.js"></script>     

@@ -1103,7 +1103,7 @@ textarea {
 
 /*Map*/
 #map {
-    width: 500px;
+    width: 100%;
     height: 250px;
     background-color: grey;
 }
