@@ -16,7 +16,7 @@
             <div class="container-fluid nopadding"> 
             <!-- faq -->
                 <section class="col-md-12 col-lg-12 nopadding" id="home"> 
-                    <div class="row flex-row valign" style="background-image: url(images/faq1.png);" >
+                    <div class="row flex-row" style="background-image: url(images/faq1.png);" >
                         <div class="col-md-12 faqheader faaqheaderpadding ">
                             <h1 class="h1-font"> Pay bill</h1>
                         </div>
