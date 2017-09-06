@@ -10,7 +10,7 @@
     <link href="css/simple-slider.css" rel="stylesheet" type="text/css" />
     <link href="css/simple-slider-volume.css" rel="stylesheet" type="text/css" /> 
     <!-- ONE8  -->     
-<title>ONE8 vanilla</title>
+<title>ONE8 v3</title>
 
 
 
