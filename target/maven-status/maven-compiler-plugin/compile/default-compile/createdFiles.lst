@@ -1,0 +1,5 @@
+com\marcus\myapp\SendMailController.class
+com\prodevans\marcus\dao\impl\SendMailDAOImpl.class
+com\prodevans\marcus\dao\SendMailDAO.class
+com\prodevans\marcus\pojo\SendMailDetails.class
+com\marcus\myapp\HomeController.class
