@@ -1192,3 +1192,60 @@ textarea {
 
 /* Colors: Text */
 .slate select   { color: #000; }
+
+
+
+/*Paymeny*/
+.payheader
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 100;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+.paayheaderpadding
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.payrow
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.payp
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px 0 0;
+}
+
+.payh
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 40px 0 10px;
+}
+
+.payp1
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px 0 20px;
+}

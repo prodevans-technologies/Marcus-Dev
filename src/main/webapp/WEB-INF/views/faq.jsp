@@ -14,7 +14,7 @@
             <!-- Main container -->
 
             <div id="v" class="container-fluid nopadding"> 
-                <!-- We are One8 -->
+                <!-- faq -->
                 <section class="col-md-12 col-lg-12 nopadding" id="home"> 
                     <div class="row flex-row" style="background-image: url(images/faq1.png);" >
                         <div class="col-md-12 faqheader faaqheaderpadding ">
