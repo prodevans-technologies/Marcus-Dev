@@ -18,39 +18,37 @@ import com.prodevans.marcus.dao.impl.SendMailDAOImpl;
 import com.prodevans.marcus.pojo.SendMailDetails;
 
 @Controller
-public class SendMailController 
-{
-	@Autowired
-	SendMailDAOImpl feedbackDAOImpl;
-	public SendMailDAOImpl getFeedbackDAOImpl() {
-		return feedbackDAOImpl;
-	}
-	
-	@RequestMapping(value = "/contactus", method = RequestMethod.GET)
-	public ModelAndView contactus(ModelMap model, HttpSession session) 
-	{
-		return  new ModelAndView("contactus","contactusDetails",new SendMailDetails());
-	}
-	
-	@RequestMapping(value = "/contactusRequestPage", method = RequestMethod.POST)
-	public String contactusRequest(ModelMap model, HttpSession session,@ModelAttribute(name="contactusDetails")SendMailDetails feedback) throws XmlRpcException 
-	{
-		boolean result=feedbackDAOImpl.sentMailContactUs(feedback);
-		return  "redirect:contactus";
-	}
-	
-	@RequestMapping(value = "/newconnection", method = RequestMethod.GET)
-	public ModelAndView newconnection(Locale locale, Model model) 
-	{
-		
-		return  new ModelAndView("newconnection","newConnectionDetails",new SendMailDetails());
+public class SendMailController {
 
-	}
-	@RequestMapping(value = "/newconnectionRequestPage", method = RequestMethod.POST)
-	public String newconnectionRequestPage(ModelMap model, HttpSession session,@ModelAttribute(name="newconnection")SendMailDetails feedback) throws XmlRpcException 
-	{
-		boolean result=feedbackDAOImpl.sentMailNewConnection(feedback);
-		return  "redirect:newconnection";
-	}
+    @Autowired
+    SendMailDAOImpl feedbackDAOImpl;
+
+    public SendMailDAOImpl getFeedbackDAOImpl() {
+        return feedbackDAOImpl;
+    }
+
+    @RequestMapping(value = "/contactus", method = RequestMethod.GET)
+    public ModelAndView contactus(ModelMap model, HttpSession session) {
+        return new ModelAndView("contactus", "contactusDetails", new SendMailDetails());
+    }
+
+    @RequestMapping(value = "/contactusRequestPage", method = RequestMethod.POST)
+    public String contactusRequest(ModelMap model, HttpSession session, @ModelAttribute(name = "contactusDetails") SendMailDetails feedback) throws XmlRpcException {
+        boolean result = feedbackDAOImpl.sentMailContactUs(feedback);
+        return "redirect:contactus";
+    }
+
+    @RequestMapping(value = "/newconnection", method = RequestMethod.GET)
+    public ModelAndView newconnection(Locale locale, Model model) {
+
+        return new ModelAndView("newconnection", "newConnectionDetails", new SendMailDetails());
+
+    }
+
+    @RequestMapping(value = "/newconnectionRequestPage", method = RequestMethod.POST)
+    public String newconnectionRequestPage(ModelMap model, HttpSession session, @ModelAttribute(name = "newconnection") SendMailDetails feedback) throws XmlRpcException {
+        boolean result = feedbackDAOImpl.sentMailNewConnection(feedback);
+        return "redirect:newconnection";
+    }
 
 }
