@@ -169,7 +169,6 @@
              <jsp:include page="components/float.jsp"></jsp:include>
         </div>  
         <!-- Main container end -->   
-
         <!-- Footer -->
         <jsp:include page="components/footer.jsp"></jsp:include>
         <script src="js/jquery.min.js"></script>     
