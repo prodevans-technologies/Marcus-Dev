@@ -97,7 +97,7 @@
                     </div>
                     <div class="col-md-4 valign">
                         <div>
-                            <h1 style="text-align:center; color:white;"> We’re driven by analtyics</h1> 
+                            <h1 style="text-align:center; color:white;"> We’re driven<br> by analtyics</h1> 
                             <p style="text-align:center; color:white; padding: 0px 20px 0px 20px;">That's what makes all the difference. 
                                 Our advanced could-based analytics 
                                 technology continuously monitors 
@@ -166,18 +166,7 @@
                 </div>             
             </section>
             <!--End We put users first -->    
-            <div id="container-floating">
-                <div id="floating-button" data-toggle="tooltip">
-                    <p class="plus valign" style="padding-top: 8px;" >
-                        <img src="images/wifi.png" height="18" width="18" />
-                        <br>
-                        <a class="external fv" href="${pageContext.request.contextPath }/newconnection">
-                            New
-                            Connection
-                        </a>
-                    </p>
-                </div>
-            </div>
+             <jsp:include page="components/float.jsp"></jsp:include>
         </div>  
         <!-- Main container end -->   
 

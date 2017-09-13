@@ -25,6 +25,7 @@
                 <section class="col-md-12 col-lg-12" id="pp"> 
                     <div class="row">
                         <div class="col-md-12">
+                            <div class="row row-white" style="padding-bottom:3%;"> </div>
                             <div class="col-md-2"></div>
                             <div class="col-md-8">
 
@@ -51,19 +52,8 @@
                         </div>
                         <div class="col-md-2"></div>
                     </div>
-                    <div class="row row-white" style="padding-bottom:50px;"> </div>
-                    <div id="container-floating">
-                        <div id="floating-button" data-toggle="tooltip">
-                            <p class="plus valign" style="padding-top: 8px;" >
-                                <img src="images/wifi.png" height="18" width="18" />
-                                <br>
-                                <a class="external fv" href="${pageContext.request.contextPath }/newconnection">
-                                New
-                                Connection
-                            </a>
-                        </p>
-                    </div>
-                </div>
+                   <div class="row row-white" style="padding-bottom:3%;"> </div>
+                     <jsp:include page="components/float.jsp"></jsp:include>
             </section>
         </div>  
         <!-- Main container end -->   

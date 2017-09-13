@@ -15,7 +15,7 @@
             <div class="container-fluid nopadding"> 
                 <!-- Never stop -->
                 <section class="col-md-12 col-lg-12 nopadding" id="home"> 
-
+<div class="row row-white" style="padding-bottom:3%;"> </div>
                 <form:form class="row" action="newconnectionRequestPage" method="post" modelAttribute="newConnectionDetails">
 
                     <div class="col-md-12 valign ">
@@ -26,7 +26,7 @@
                     <div class="col-md-12 ">
                         <div class="col-md-3 "></div>
                         <div class="col-md-6  " style="text-align:left;">
-                            <form:input type="text" path="name" id="Name" name="name" placeholder="Name" />
+                            <form:input type="text" required="required" path="name" id="Name" name="name" placeholder="Name" />
                         </div>
                     </div>
                     <div class="col-md-12 ">
@@ -62,7 +62,7 @@
                 </form:form>
 
             </section>
-            <div class="row row-white" style="padding-bottom:30px;"> </div>
+            <div class="row row-white" style="padding-bottom:3%;"> </div>
         </div>
         <div id="container-floating">
             <div id="floating-buttongray" data-toggle="tooltip">

@@ -40,12 +40,12 @@
                     <p class="payp">Payment Summary</p>
 					<br>
 					
-                    <p class="payp1"> Your payment of &#8377. <%=responseFromCCAvenue.get("amount") %>/- was unsuccessful.</p>
+                    <p class="payp1"> Your payment of &#8377. /- was unsuccessful.</p>
                     <br>
 					
 					<p class="payp">TRANSACTION ID</p>
 					
-					<p class="payp1"><%=pd.getTransaction_id() %></p>
+					<p class="payp1">1234</p>
                 </div>
             </div>             
         </section>

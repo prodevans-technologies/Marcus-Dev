@@ -50,18 +50,8 @@
                         <div class="col-md-2"></div>
                     </div>
                 </section>
-                <div id="container-floating">
-                    <div id="floating-button" data-toggle="tooltip">
-                        <p class="plus valign" style="padding-top: 8px;" >
-                            <img src="images/wifi.png" height="18" width="18" />
-                            <br>
-                            <a class="external fv" href="${pageContext.request.contextPath }/newconnection">
-                            New
-                            Connection
-                        </a>
-                    </p>
-                </div>
-            </div>
+                <div class="row row-white" style="padding-bottom:3%;"> </div>
+                 <jsp:include page="components/float.jsp"></jsp:include>
         </div>  
         <!-- Main container end -->   
 

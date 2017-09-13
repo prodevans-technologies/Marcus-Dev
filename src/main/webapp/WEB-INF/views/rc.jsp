@@ -28,27 +28,16 @@
                         <div class="col-md-12">
                             <div class="col-md-2"></div>
                             <div class="col-md-8">
-                                <div class="row row-white" style="padding-bottom:50px;"> </div>
+                                <div class="row row-white" style="padding-bottom:17%;"> </div>
                                 <p class="faqp1" >No Refund of fixed duration pack or Cancellation of payment transaction is allowed. Any disputes in regards to payments/ refund of transaction(s) due to technical reasons are subject to arbitration / resolution on a case to case basis.</p>
-                                <div class="row row-white" style="padding-bottom:60px;"> </div>    
+                                <div class="row row-white" style="padding-bottom:17%;"> </div>    
                             </div>
                         </div>
                         <div class="col-md-2"></div>
                     </div>
-                    <div class="row row-white" style="padding-bottom:50px;"> </div>
+                    
                 </section>
-                <div id="container-floating">
-                    <div id="floating-button" data-toggle="tooltip">
-                        <p class="plus valign" style="padding-top: 8px;" >
-                            <img src="images/wifi.png" height="18" width="18" />
-                            <br>
-                            <a class="external fv" href="${pageContext.request.contextPath }/newconnection">
-                            New
-                            Connection
-                        </a>
-                    </p>
-                </div>
-            </div>
+                <jsp:include page="components/float.jsp"></jsp:include>
         </div>  
         <!-- Main container end -->   
 

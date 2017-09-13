@@ -16,7 +16,7 @@
                 <section class="col-md-12 col-lg-12 nopadding" id="home"> 
                     <div class="row flex-row" style="background-image: url(images/faq1.png);" >
                         <div class="col-md-12 faqheader faaqheaderpadding ">
-                            <h1 class="h1-font"> Terms and Condition</h1>
+                            <h1 class="h1-font"> Terms and Conditions</h1>
                         </div>
                     </div>             
                 </section>
@@ -27,16 +27,14 @@
                         <div class="col-md-12">
                             <div class="col-md-2"></div>
                             <div class="col-md-8">
-                                <div class="row row-white" style="padding-bottom:50px;"> </div>
+                                <div class="row row-white" style="padding-bottom:3%;"> </div>
                                 <p class="faqp1"> The Terms and Conditions (T&C) contained along with the Privacy Policy and Terms of Use, form an Agreement regulating the relationship with regard to the use of Stoic-MarcusTM Technologies (STOIC-MARCUSTM) products and services by Stoic-MarcusTM Technologies to you. Visitors to this website are subject to the below terms and conditions ("Terms") so kindly read carefully before using the site.Changes and updates to the website may be made at any time. Packages, prices and service offerings are liable to change at the instance. Your use of a Site after any amendment to the Terms of Use shall constitute your acceptance of these terms and you also agree to be bound by any such changes/revisions.</p>
                                 <p class="faqp" >Definitions: </p>
-
                                 <p class="faqp1"> "Agreement" is the Terms and Conditions (T&C) contained herein along with the Privacy Policy and Terms of Use including other T&C at other portals of STOIC-MARCUS<sup>TM</sup>. It will also include references to this Agreement as and when amended or replaced. 
                                     <br/> "Portal/Site" means the STOIC-MARCUS<sup>TM</sup> platform owned and operated by STOIC-MARCUS<sup>TM</sup>. 
                                     <br/> "User/You" means and includes any Customer / Users / You (the person or any legal entity) who uses the services offered by STOIC-MARCUS<sup>TM</sup> through its Portal.</p>
-                                <p class="faqp" >The agreement between you and STOIC-MARCUSTM is subject to the following terms and conditions: </p>
-
-                                <p class="faqp1"><br/><br/>The User agrees to use the services provided by STOIC-MARCUS<sup>TM</sup>, its affiliates, consultants and contracted companies, for lawful purposes only.
+                                <p class="faqp" >The agreement between you and STOIC-MARCUS<sup>TM</sup> is subject to the following terms and conditions: </p>
+                                <p class="faqp1"><br/>The User agrees to use the services provided by STOIC-MARCUS<sup>TM</sup>, its affiliates, consultants and contracted companies, for lawful purposes only.
                                     <br/><br/> Disclaimer of Warranties/Limitation Of Liability: User agrees that STOIC-MARCUS<sup>TM</sup> does not warrant that the services contained in this site will be uninterrupted or error free, that?s defects will be corrected, or that this site or the servers that make it available are free of viruses or other harmful components. Having stated that, the STOIC-MARCUS<sup>TM</sup> endeavors to provide a satisfactory experience to the customer.
                                     <br/><br/> STOIC-MARCUS<sup>TM</sup> shall not be held responsible for non availability of the website during periodic maintenance operations or any unplanned suspension of access to the website that may occur due to technical reason beyond STOIC-MARCUS<sup>TM</sup>'s control. The user understands and agrees that any material and/or data downloaded or otherwise obtained through website is done entirely at their own discretion and risk and they will be solely responsible for any damage to their computer systems or loss of data that results from the download of such material and/or data.
                                     <br/><br/> Payment Terms - the User certifies that he/she is at least 18 (eighteen) years of age or has the consent of a parent or legal guardian. User is responsible for the security of User's password and for all transactions undertaken using User's password through our service. User confirms that he/she is the authorized holder of the credit card or the original account holder used in the transactions under this Site. STOIC-MARCUS<sup>TM</sup> will not be responsible for any financial loss, inconvenience or mental agony resulting from misuse of user's ID/password/credit card number/account details number for using STOIC-MARCUS<sup>TM</sup>'s payment service. 
@@ -54,20 +52,10 @@
                             </div>
                         </div>
                         <div class="col-md-2"></div>
+                        <div class="row row-white" style="padding-bottom:3%;"> </div>
                     </div>
                 </section>
-                <div id="container-floating">
-                    <div id="floating-button" data-toggle="tooltip">
-                        <p class="plus valign" style="padding-top: 8px;" >
-                            <img src="images/wifi.png" height="18" width="18" />
-                            <br>
-                            <a class="external fv" href="${pageContext.request.contextPath }/newconnection">
-                            New
-                            Connection
-                        </a>
-                    </p>
-                </div>
-            </div>
+                 <jsp:include page="components/float.jsp"></jsp:include>
         </div>  
         <!-- Main container end -->    
 

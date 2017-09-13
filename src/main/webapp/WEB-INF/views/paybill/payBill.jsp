@@ -7,52 +7,96 @@
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <jsp:include page="../components/css.jsp"></jsp:include>      
         </head> 
-        
+
         <body> 
             <!-- Navigation -->
-        <jsp:include page="../components/footerpagenav.jsp"></jsp:include>   
+            <div class="fixed-header"> 
+                <div class="container-fluid"> 
+                    <div class="navbar-header"> 
+                        <button type="button" class="navbar-toggle"> 
+                            <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span> 
+                        </button>                 
 
-            <!-- Main container -->
-            <div class="container-fluid nopadding"> 
-            <!-- faq -->
-                <section class="col-md-12 col-lg-12 nopadding" id="home"> 
-                    <div class="row flex-row" style="background-image: url(images/faq1.png);" >
-                        <div class="col-md-12 faqheader faaqheaderpadding ">
-                            <h1 class="h1-font"> Pay bill</h1>
-                        </div>
-                    </div>             
-                </section>
-                <!-- Never stop -->
-                <section class="col-md-12 col-lg-12 nopadding"> 
-                <form:form role="form" action="payBillRequest" method="post" modelAttribute="payBillDetails" >
-                    <div class="col-md-12">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6" style="text-align:left;">
-                            <form:input path="account_id" type="text" id="account_id" placeholder="One8 ID " required="required"/>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6" style="text-align:left;">
-                            <form:input path="email_id" type="text" id="email_id" placeholder="Email ID " required="required"/>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6" style="text-align:left;">
-                            <form:input path="amount" type="text" id="amount" placeholder="Amount"  required="required"/>
-                        </div>
-                    </div>
-                    <div class="col-md-12"></div>
-                    <div class="col-md-5"></div>
-                    <div class="col-md-2 buttonright" align="right">
-                        <button type="submit" class="btn btn-danger btn-xl buttonv">PAY BILL</button>
-                    </div>
+                        <a class="external navbar-brand pull-left vlogo" rel="home" href="${pageContext.request.contextPath }/"> 
 
-                </form:form>
+                        <img class="logo-size" src="images/newlogo.png">
+                    </a>
+                </div>             
+                <nav class="main-menu vpadding"> 
+                    <ul> 
+                        <li>
+                            <a class="external" href="${pageContext.request.contextPath }/index">HOME</a>
+                        </li>                     
+                        <li>
+                            <a class="external" href="${pageContext.request.contextPath }/about">ABOUT US</a>
+                        </li>                     
+                        <li>
+                            <a class="external" href="${pageContext.request.contextPath }/#plans">PLANS</a>
+                        </li>                     
+                        <li>
+                            <a href="${pageContext.request.contextPath }/#home">PAY BILL</a>
+                        </li>                     
+                        <li>
+                            <a class="external" href="http://52.172.215.71/zeno/login">MY ONE8</a>
+                        </li>  
+                        <!-- <li>
+                            <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+                        </li>-->
+                        
+                    </ul>                 
+                </nav>             
+            </div>         
+        </div> 
 
+
+        <!-- Main container -->
+        <div class="container-fluid nopadding" > 
+            <section class="col-md-12 col-lg-12 nopadding" id="home"> 
+                <div class="row flex-row"  >
+                    <div class="col-md-4 payheader paayheaderpadding "style="background-image: url(images/faq2.png);">
+                        <h1 class="h1-font">Pay bill</h1>
+                    </div>
+                    <div class="col-md-8  paayheaderpadding " style="background-color: #e2e2e2"> </div>
+
+                </div>             
             </section>
-            <div class="row row-white" style="padding-bottom:15px;"> </div>
+
+            <section class="col-md-12 col-lg-12 nopadding"> 
+                <div class="row flex-row" style="background-color:#fff; margin: 1%; ">
+                    <div class="col-md-4 valign "> </div>
+                    <div class="col-md-7  nopadding" style=" float:right; box-shadow: 0px 2px 5px #666;" >
+                        <form:form role="form" action="payBillRequest" method="post" modelAttribute="payBillDetails" >
+                            <div class="col-md-12">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-10" style="text-align:left;">
+                                    <form:input path="account_id" type="text" id="account_id" placeholder="One8 ID " required="required"/>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-10" style="text-align:left;">
+                                    <form:input path="email_id" type="text" id="email_id" placeholder="Email ID " required="required"/>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-10" style="text-align:left;">
+                                    <form:input path="amount" type="text" id="amount" placeholder="Amount"  required="required"/>
+                                </div>
+                            </div>
+
+                            <div class="col-md-9"></div>
+                            <div class="col-md-2" align="right">
+                                <button type="submit" class="btn btn-danger btn-xl buttonv">PAY BILL</button>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </form:form>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>             
+            </section>
         </div>
         <div id="container-floating">
             <div id="floating-button" data-toggle="tooltip">

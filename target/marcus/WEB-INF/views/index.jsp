@@ -66,7 +66,7 @@
                         </div>
                     </div>
                     <div class="col-md-8 nopadding" style="float:right;">
-                        <img id="heroImage" src="images/heroimage1250x580.jpg" class="img-responsive img-height" />
+                        <img id="heroImage" src="images/v1080x600.jpg" class="img-responsive img-height" />
                     </div>
                 </div>             
             </section>
@@ -75,19 +75,18 @@
             <section class="col-md-12 col-lg-12" id="plans"> 
                 <div class="row" style="padding-top:30px;padding-bottom:20px;">
                     <h1 class="h1-font font-black text-align-center">Never run out</h1>
-
+                    <div class="row" style="padding-bottom:20px;">
+                        <p class="p-font font-black text-align-center">Three simple data plans. Easy top ups. Instant credits. So you never miss a beat.</p>
+                    </div>
                     <p class="p-font font-black text-align-center styled-select slate">
-                        Select your City
-
                         <select class="selectpicker" data-style="btn-warning" id="city" style="border-bottom: 2px solid red;">
+                            <option value="vic"><u>CHOOSE YOUR CITY</u></option>
                             <option value="Bengaluru"><u>Bengaluru</u></option>
                             <option value="Hyderabad">Hyderabad</option>
                         </select>
                     </p>
                 </div>
-                <div class="row" style="padding-bottom:20px;">
-                    <p class="p-font font-black text-align-center">Three simple data plans. Easy top ups. Instant credits. So you never miss a beat.</p>
-                </div>
+
 
                 <!--vikram mobile-->
                 <!-- desktop & chrome-->
@@ -96,14 +95,16 @@
                     <div class="row sec2row sec2blk_eq_ht">
                         <div class="col-md-1"> </div>
                         <div class="col-md-6 sec2block" style="padding-top:10px; padding-bottom:10px;">
-                            <h3 class="sec5hd2 text-align-center">PLANS</h3>
-                            <h4 class="text-align-center"><span id="dbasic">BASIC </span>&nbsp; &nbsp;<span id="dstandard">STANDARD</span> &nbsp; &nbsp;<span id="dpremium">PREMIUM</span></h4>
+                            <h2 class="sec5hd2 text-align-center">PLANS</h2>
+                            
+                            <h4 class="text-align-center" ><span id="dbasic">BASIC </span>&nbsp; &nbsp;<span id="dstandard">STANDARD</span> &nbsp; &nbsp;<span id="dpremium">PREMIUM</span></h4>
+                            
                             <div id="slider-text" align="center">
                                 <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
                             </div>
                             <p class="sec2blkpara">Slide to explore plans</p>
                             <p class="sec2blktxt">Already a Customer? </p>
-                            <p class="sec2blktxt"> <a href="">Log in to</a> check usage.</p>
+                            <p class="sec2blktxt"> <a href="http://52.172.215.71/zeno/login">Log in to</a> check usage.</p>
                         </div>
                         <!--  </div> top row -->
                         <!-- </div> -->
@@ -129,29 +130,29 @@
                 <div id="is-mobile" class="show">
                     <div class="container-fluid">
                         <div class="row sec2row sec2blk_eq_ht">
-                            <div class="col-md-1"> 
+                            <div class="col-md-2"> 
                             </div>
-                            <div class="col-md-6 sec2block">
+                            <div class="col-md-4 sec2block">
                                 <h3 class="sec2hd2" style="padding-bottom:10px;">PLANS</h3>
-                                <div class="col-md-4 vcenter"><h3 class="sec2hd2"><span id="basic">BASIC </span></h3></div>
-                                <div class="col-md-4 vcenter"><h3 class="sec2hd2"><span id="standard">STANDARD</span></h3></div>
-                                <div class="col-md-4 vcenter"><h3 class="sec2hd2"><span id="premium">PREMIUM</span></h3></div>
-                                <div id="slider-text" class="col-md-12 hidden-xs" align="center">
+                                <div class="col-md-3 vcenter" text-align="left"><h4 class="sec2hd22"><span id="basic">BASIC </span></h4></div>
+                                <div class="col-md-5 vcenter"><h4 class="sec2hd2"><span id="standard">STANDARD</span></h4></div>
+                                <div class="col-md-4 vcenter"><h4 class="sec2hd222"><span id="premium">PREMIUM</span></h4></div>
+                                <div id="slider-text" class="col-md-12 hidden-xs" align="center" padding-right="5px"; padding-left="5px";>
                                     <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
                                 </div>
                                 <p class="sec2slidetotext vplans" style="padding-bottom:8px;">Slide to explore plans</p>
-                                <p class="sec2blktxt vplans" style="margin-bottom: -5px;">Already a Customer? </p>
+                                <p class="sec2blktxt vplans" style="margin-bottom: 3px;">Already a Customer? </p>
                                 <p class="sec2blktxt vplans"> <a href="">Log in to</a> change plans or check usage.</p>
                             </div>
                             <div class="col-md-4 sec2block" style="padding-top:-50px; ">
                                 <h3 class="plan_rs separating_line"><div id="dslidertextprice"/></h3> 
-                                <p class="sec2blktxt vplans" style="margin-bottom: -5px; padding-top:0px;"> > <span id="dslidertextdata"> </span>&nbsp; &bull;<span id="dslidertextspeed"></span></p>
+                                <p class="sec2blktxt vplans" style="margin-bottom: 3px; padding-top:0px;"> &bull; <span id="dslidertextdata"> </span>&nbsp; &bull;<span id="dslidertextspeed"></span></p>
                                 <p class="sec2slidetotext vplans"> &bull; Exclusive of GST</p>
-                                <div class="col-md-12 text-center sec2btnpadding" style="padding-top:30px;">
+                                <div class="col-md-12 text-center sec2btnpadding" style="padding-top:20;">
                                     <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                            
                                 </div>
                             </div>
-                            <div class="col-md-1"> 
+                            <div class="col-md-2"> 
                             </div>
                         </div>
                     </div>
@@ -192,8 +193,10 @@
                         <div align="center" style="padding-bottom:20px;">
                             <img style="height: 70px; widows: 150px" id="money" src="images/no_hidden_cost.png" class="img-responsive " /> 
                         </div>
-                        <h1 class="h1-font font-black text-align-center">NO HIDDEN COSTS</h1> 
+                        <p style="text-align:center;"><strong>NO HIDDEN COSTS</strong></p> 
+                        
                         <p style="text-align:center;">What you see is what you get. Our plans are transparent and so are our bills.</p> 
+                        
                         <div class="col-md-12 buttoncenter">
                             <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>
                         </div>
@@ -219,8 +222,8 @@
             <!-- Get the ONE8 cube -->
             <section class="col-md-12 col-lg-12 nopadding" id="one8cube"> 
                 <div class="row sec7row">
-                    <div class="col-md-4 " style="padding-top: 9%">
-                        <div class="row sec7row ">
+                    <div class="col-md-4" style="padding-top: 10%; padding-bottom:9%; background-color:#c4c4c4;">
+                        <div class="row sec7row" style="background-color:#c4c4c4;">
                             <div id="text-carousel" class="carousel slide" data-ride="carousel">
                                 <!-- slides -->
                                 <div class="row">
@@ -280,10 +283,10 @@
             </section>
             <!-- support -->
             <section class="col-md-12 col-lg-12" style=" padding: 20px 0px;" id="one8cube"> 
-                <div class="row" style="padding-top:20px; padding-bottom:20px;">
+                <div class="row" style="padding-top:0px; padding-bottom:20px;">
                     <div class="col-md-12">
                         <h1 style="text-align:center;">24/7 Support</h1> 
-                        <p style="text-align:center;">Call +91 99019602602, and we’ll make sure your network never stops. </p> 
+                        <p style="text-align:center;">Call +91 90196 02602, and we’ll make sure your network never stops. </p> 
                     </div>
                 </div>
                 <div class="row">
@@ -292,18 +295,7 @@
                     </div>
                 </div>
             </section>
-            <div id="container-floating">
-                <div id="floating-button" data-toggle="tooltip">
-                    <p class="plus valign" style="padding-top: 8px;" >
-                        <img src="images/wifi.png" height="18" width="18" />
-                        <br>
-                        <a class="external fv" href="${pageContext.request.contextPath }/newconnection">
-                            New
-                            Connection
-                        </a>
-                    </p>
-                </div>
-            </div>
+            <jsp:include page="components/float.jsp"></jsp:include>
         </div>  
         <!-- Main container end -->   
 
