@@ -34,16 +34,16 @@
                         <div class="col-md-1  "></div>
                         <div class="col-md-4  ">
                             <div>
-                                <p class="faqp" style="padding-left: 20px;  text-align:left;">Address</p> 
+                                <p class="faqp" style="padding-left: 20px; text-align:left;">Address</p> 
                                 <p class="faqp1" style="padding-left: 20px; text-align:left; ">
                                     Novel Tech Park, 3rd Floor, No. 46/4 Garvebhavi Palya Hongasandra, Hosur Road, Bengaluru, Karnataka 560068
                                 </p>
-                                <div class="row row-white" style="padding-bottom:6%;"> </div>
+                                <div class="row row-white" style="padding-top: 4%; padding-bottom:6%;"> </div>
                                 <p class="faqp" style="padding-left: 20px;  text-align:left;">Contact</p> 
                                 <p class="faqp1"  style="padding-left: 20px; text-align:left; padding-bottom: -5px;">
                                     +91 - 90196 02602
                                 </p>
-                                <div class="row row-white" style="padding-bottom:6%;"> </div>
+                                <div class="row row-white" style="padding-top: 4%; padding-bottom:6%;"> </div>
                                 <p class="faqp"  style="padding-left: 20px; text-align:left; padding-bottom: -5px;">Mail</p> 
                                 <p class="faqp1" style="padding-left: 20px; text-align:left; padding-bottom: -5px;">
                                     info@oneeight.co.in
@@ -83,7 +83,7 @@
                             <form:textarea path="message" required="required" rows="7" name="message" placeholder="Message"></form:textarea>
                             </div>
                             <div class="col-md-2  "></div>
-                            <div class="col-md-9 buttonright" align="right" style="padding-bottom:2%;">
+                            <div class="col-md-9 buttonright" align="right" style="padding-top: 1%;">
                                 <button type="submit" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
                             </div>
                     </form:form>

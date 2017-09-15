@@ -3,7 +3,8 @@
 @media (min-width:319px)
 {
     .slider {
-        width: 100%;
+        width: 95%;
+        align-self: center;
     }
 
 }
@@ -13,7 +14,8 @@
 @media (min-width:481px)
 {
     .slider {
-        width: 100%;
+        width: 95%;
+        align-self: center;
     }
 }
 
@@ -22,7 +24,8 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
 {
     .slider {
-        width: 100%;
+        width: 95%;
+        align-self: center;
     }
 }
 
@@ -31,7 +34,8 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
 {
     .slider {
-        width: 100%;
+        width: 95%;
+        align-self: center;
     }
 }
 
@@ -40,7 +44,8 @@
 @media (min-width:961px)
 {
     .slider {
-        width: 100%;
+        width: 95%;
+        align-self: center;
     } 	
 }
 
@@ -49,19 +54,30 @@
 @media only screen and (min-width : 1824px)
 {
     .slider {
-        width: 100%;
+        width: 95%;
+        align-self: center;
     } 
 }
 
 /* 6. 4K and larger displays*/
 
-@media only screen and (min-width : 1921px)
+@media only screen and (min-width : 1920px)
 {
     .slider {
         width: 100%;
+        align-self: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
     } 
 }
 
+@media (min-width: 992px)
+{
+.vco {
+    width: 97%;
+    align-self: center;
+}
+}
 /* ******* End of MediaQueries ****** */
 
 

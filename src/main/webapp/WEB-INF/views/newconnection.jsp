@@ -15,7 +15,7 @@
             <div class="container-fluid nopadding"> 
                 <!-- Never stop -->
                 <section class="col-md-12 col-lg-12 nopadding" id="home"> 
-<div class="row row-white" style="padding-bottom:3%;"> </div>
+                    <div class="row row-white" style="padding-bottom:3%;"> </div>
                 <form:form class="row" action="newconnectionRequestPage" method="post" modelAttribute="newConnectionDetails">
 
                     <div class="col-md-12 valign ">
@@ -64,14 +64,15 @@
             </section>
             <div class="row row-white" style="padding-bottom:3%;"> </div>
         </div>
+
         <div id="container-floating">
             <div id="floating-buttongray" data-toggle="tooltip">
-                <p class="plus valign" style="padding-top: 8px;" >
-                    <img src="images/wifi.png" height="18" width="18" />
+                <p class="plus valign" style="padding-top: 12px;" >
+                    <!-- <img src="images/wifi.png" height="20" width="20" /> -->
                     <br>
                     <a class="external fv" href="${pageContext.request.contextPath }/newconnection">
-                        New
-                        Connection
+                        NEW
+                        CONNECTION
                     </a>
                 </p>
             </div>

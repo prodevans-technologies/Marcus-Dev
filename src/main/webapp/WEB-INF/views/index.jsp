@@ -79,14 +79,13 @@
                         <p class="p-font font-black text-align-center">Three simple data plans. Easy top ups. Instant credits. So you never miss a beat.</p>
                     </div>
                     <p class="p-font font-black text-align-center styled-select slate">
-                        <select class="selectpicker" data-style="btn-warning" id="city" style="border-bottom: 2px solid red;">
-                            <option value="vic"><u>CHOOSE YOUR CITY</u></option>
-                            <option value="Bengaluru"><u>Bengaluru</u></option>
+                        <select class="selectpicker" data-style="btn-warning" id="city" style="background-image:url(images/select1.jpg); width:195px; -webkit-appearance: none; border-bottom: 2px solid red; ">
+                            <option value="vic">CHOOSE YOUR CITY</option>
+                            <option value="Bengaluru">Bengaluru</option>
                             <option value="Hyderabad">Hyderabad</option>
                         </select>
                     </p>
                 </div>
-
 
                 <!--vikram mobile-->
                 <!-- desktop & chrome-->
@@ -94,17 +93,19 @@
                     <!--  <div class="container"> -->
                     <div class="row sec2row sec2blk_eq_ht">
                         <div class="col-md-1"> </div>
-                        <div class="col-md-6 sec2block" style="padding-top:10px; padding-bottom:10px;">
+                        <div class="col-md-6 sec2block " style="padding-top:10px; padding-bottom:10px;">
+
                             <h2 class="sec5hd2 text-align-center">PLANS</h2>
-                            
+
                             <h4 class="text-align-center" ><span id="dbasic">BASIC </span>&nbsp; &nbsp;<span id="dstandard">STANDARD</span> &nbsp; &nbsp;<span id="dpremium">PREMIUM</span></h4>
-                            
+
                             <div id="slider-text" align="center">
                                 <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
                             </div>
                             <p class="sec2blkpara">Slide to explore plans</p>
                             <p class="sec2blktxt">Already a Customer? </p>
                             <p class="sec2blktxt"> <a href="http://52.172.215.71/zeno/login">Log in to</a> check usage.</p>
+
                         </div>
                         <!--  </div> top row -->
                         <!-- </div> -->
@@ -127,32 +128,35 @@
 
                 <!--vikram desktop-->
                 <!-- mobile & firefox-->
-                <div id="is-mobile" class="show">
+                <div id="is-mobile" class="show" style="padding-bottom:10px; padding-top: 10px;">
                     <div class="container-fluid">
-                        <div class="row sec2row sec2blk_eq_ht">
+                        <div class="row sec2row sec2blk_eq_ht ">
+                            <div class="flex-row">
                             <div class="col-md-2"> 
                             </div>
-                            <div class="col-md-4 sec2block">
+                            <div class="col-md-4 sec2block vplans">
                                 <h3 class="sec2hd2" style="padding-bottom:10px;">PLANS</h3>
-                                <div class="col-md-3 vcenter" text-align="left"><h4 class="sec2hd22"><span id="basic">BASIC </span></h4></div>
+                                <div class="col-md-3 vcenter" ><h4 class="sec2hd22"><span id="basic">BASIC </span></h4></div>
                                 <div class="col-md-5 vcenter"><h4 class="sec2hd2"><span id="standard">STANDARD</span></h4></div>
                                 <div class="col-md-4 vcenter"><h4 class="sec2hd222"><span id="premium">PREMIUM</span></h4></div>
-                                <div id="slider-text" class="col-md-12 hidden-xs" align="center" padding-right="5px"; padding-left="5px";>
+                                <div id="slider-text" class="col-md-12 vco hidden-xs" align="center" padding-right="5px"; padding-left="5px";>
                                     <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
                                 </div>
                                 <p class="sec2slidetotext vplans" style="padding-bottom:8px;">Slide to explore plans</p>
                                 <p class="sec2blktxt vplans" style="margin-bottom: 3px;">Already a Customer? </p>
                                 <p class="sec2blktxt vplans"> <a href="">Log in to</a> change plans or check usage.</p>
                             </div>
-                            <div class="col-md-4 sec2block" style="padding-top:-50px; ">
+                            <div class="col-md-4 sec2block vplans" >
                                 <h3 class="plan_rs separating_line"><div id="dslidertextprice"/></h3> 
-                                <p class="sec2blktxt vplans" style="margin-bottom: 3px; padding-top:0px;"> &bull; <span id="dslidertextdata"> </span>&nbsp; &bull;<span id="dslidertextspeed"></span></p>
-                                <p class="sec2slidetotext vplans"> &bull; Exclusive of GST</p>
-                                <div class="col-md-12 text-center sec2btnpadding" style="padding-top:20;">
+                                <p class="sec2blktxt vplans" style=" padding-top:3px;"> &bull; &nbsp;<span id="dslidertextdata"> </span> &bull;&nbsp;<span id="dslidertextspeed"></span></p>
+                                <p class="sec2slidetotext vplans" style="margin-bottom: 3px;"> &bull; &nbsp; Exclusive of GST</p>
+                                <div class="col-md-12 text-center sec2btnpadding" style="padding-top:27px;">
                                     <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                            
                                 </div>
                             </div>
                             <div class="col-md-2"> 
+                            </div>
+                            
                             </div>
                         </div>
                     </div>
@@ -194,9 +198,9 @@
                             <img style="height: 70px; widows: 150px" id="money" src="images/no_hidden_cost.png" class="img-responsive " /> 
                         </div>
                         <p style="text-align:center;"><strong>NO HIDDEN COSTS</strong></p> 
-                        
+
                         <p style="text-align:center;">What you see is what you get. Our plans are transparent and so are our bills.</p> 
-                        
+
                         <div class="col-md-12 buttoncenter">
                             <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>
                         </div>
@@ -221,53 +225,55 @@
 
             <!-- Get the ONE8 cube -->
             <section class="col-md-12 col-lg-12 nopadding" id="one8cube"> 
-                <div class="row sec7row">
-                    <div class="col-md-4" style="padding-top: 10%; padding-bottom:9%; background-color:#c4c4c4;">
-                        <div class="row sec7row" style="background-color:#c4c4c4;">
-                            <div id="text-carousel" class="carousel slide" data-ride="carousel">
-                                <!-- slides -->
-                                <div class="row">
-                                    <!--  <div class="col-xs-offset-3 col-xs-6"> -->
-                                    <div class="col-md-12 " style="padding-left:25px; padding-right:25;"> 
-                                        <div class="carousel-inner">
-                                            <div class="item active">
-                                                <div class="carousel-content">
-                                                    <div>
-                                                        <img id="section3" src="images/cpe_img1.png" class="img-responsive img-contain" />
+                <div class="row sec7row flex-row">
+                    <div class="col-md-4 valign cube-col-padding" style="background-color:#c4c4c4;">
+                        <div>  
+                            <div class="row sec7row" style="background-color:#c4c4c4;">
+                                <div id="text-carousel" class="carousel slide" data-ride="carousel">
+                                    <!-- slides -->
+                                    <div class="row">
+                                        <!--  <div class="col-xs-offset-3 col-xs-6"> -->
+                                        <div class="col-md-12 " style="padding-left:25px; padding-right:25;"> 
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <div class="carousel-content">
+                                                        <div>
+                                                            <img id="section3" src="images/cpe_img1.png" class="img-responsive img-contain" />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="carousel-content">
-                                                    <div>
-                                                        <img id="section3" src="images/cpe_img2.png" class="img-responsive img-contain" />
+                                                <div class="item">
+                                                    <div class="carousel-content">
+                                                        <div>
+                                                            <img id="section3" src="images/cpe_img2.png" class="img-responsive img-contain" />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="carousel-content">
-                                                    <div> 
-                                                        <img id="section3" src="images/cpe_img3.png" class="img-responsive img-contain" />
+                                                <div class="item">
+                                                    <div class="carousel-content">
+                                                        <div> 
+                                                            <img id="section3" src="images/cpe_img3.png" class="img-responsive img-contain" />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="carousel-content">
-                                                    <div>
-                                                        <img id="section3" src="images/cpe_img4.png" class="img-responsive img-contain" />
+                                                <div class="item">
+                                                    <div class="carousel-content">
+                                                        <div>
+                                                            <img id="section3" src="images/cpe_img4.png" class="img-responsive img-contain" />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
 
+                                            </div>
                                         </div>
                                     </div>
+                                    <!-- Controls -->
                                 </div>
-                                <!-- Controls -->
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 valign cube-col-height">
-                        <div>
+                    <div class="col-md-8 valign cube-col-height vsvs">
+                        <div >
                             <div class="row">
                                 <h1 style="text-align:center;">Get the One8 Cube,<br>The nerve centre of your experience</h1>
                             </div>
@@ -296,11 +302,11 @@
                 </div>
             </section>
             <jsp:include page="components/float.jsp"></jsp:include>
-        </div>  
-        <!-- Main container end -->   
+            </div>  
+            <!-- Main container end -->   
 
 
-        <!-- Footer -->
+            <!-- Footer -->
         <jsp:include page="components/footer.jsp"></jsp:include>
 
         <script src="js/jquery.min.js"></script>     

@@ -2,7 +2,7 @@
 
 <!-- Footer -->
 <div class="container-fluid nopadding">
-    <div class="row" style="background-color:#ebebeb;">
+    <div class="row" >
         <div class="col-md-12">
             <footer>
                 <div class="footer-bottom">
@@ -11,7 +11,7 @@
                         <div class="pull-right">
                             <ul class="nav nav-pills payments" style="font-size:13px;">
                                 <li><a style="color: #000" href="${pageContext.request.contextPath }/faq">FAQ</a></li>
-                                <li><a style="color: #000" href="${pageContext.request.contextPath }/terms">TERMS AND CONDITION</a></li>
+                                <li><a style="color: #000" href="${pageContext.request.contextPath }/terms">TERMS AND CONDITIONS</a></li>
                                 <li><a style="color: #000" href="${pageContext.request.contextPath }/privacy">PRIVACY POLICY</a></li>
                                 <li><a style="color: #000" href="${pageContext.request.contextPath }/refund">REFUND AND CANCELLATION</a></li>
                                 <li><a style="color: #000" href="${pageContext.request.contextPath }/contactus">CONTACT US</a></li>

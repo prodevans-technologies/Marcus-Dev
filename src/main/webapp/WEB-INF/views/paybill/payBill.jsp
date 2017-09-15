@@ -44,7 +44,7 @@
                         <!-- <li>
                             <a href="#"><span class="glyphicon glyphicon-search"></span></a>
                         </li>-->
-                        
+
                     </ul>                 
                 </nav>             
             </div>         
@@ -64,9 +64,9 @@
             </section>
 
             <section class="col-md-12 col-lg-12 nopadding"> 
-                <div class="row flex-row" style="background-color:#fff; margin: 1%; ">
+                <div class="row flex-row" style="background-color:#fff; margin: 1%; padding-top: 2%; padding-bottom: 2%; ">
                     <div class="col-md-4 valign "> </div>
-                    <div class="col-md-7  nopadding" style=" float:right; box-shadow: 0px 2px 5px #666;" >
+                    <div class="col-md-7 col-xs-12  nopadding" style=" float:right; box-shadow: 0px 2px 5px #666;" >
                         <form:form role="form" action="payBillRequest" method="post" modelAttribute="payBillDetails" >
                             <div class="col-md-12">
                                 <div class="col-md-1"></div>
@@ -88,8 +88,8 @@
                             </div>
 
                             <div class="col-md-9"></div>
-                            <div class="col-md-2" align="right">
-                                <button type="submit" class="btn btn-danger btn-xl buttonv">PAY BILL</button>
+                            <div class="col-md-2" align="right" style="padding-top: 1%;">
+                                <button type="submit" class="btn btn-danger btn-xl buttonv"> PAY BILL </button>
                             </div>
                             <div class="col-md-1"></div>
                         </form:form>
@@ -100,12 +100,12 @@
         </div>
         <div id="container-floating">
             <div id="floating-button" data-toggle="tooltip">
-                <p class="plus valign" style="padding-top: 8px;" >
-                    <img src="images/wifi.png" height="18" width="18" />
+                <p class="plus valign" style="padding-top: 12px;" >
+                    <!-- <img src="images/wifi.png" height="20" width="20" /> -->
                     <br>
                     <a class="external fv" href="${pageContext.request.contextPath }/newconnection">
-                        New
-                        Connection
+                        NEW
+                        CONNECTION
                     </a>
                 </p>
             </div>

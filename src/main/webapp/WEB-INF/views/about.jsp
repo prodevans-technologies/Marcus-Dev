@@ -72,21 +72,30 @@
             </section>
 
             <!-- Presenting the network that never stops -->
-            <section class="col-md-12 col-lg-12" id="neverstops"> 
-                <div class="row" style="padding-top:30px;padding-bottom:20px;">
+            
+             <section class="col-md-12 col-lg-12 nopadding" id="neverstops">
+                <div class="row" style="padding-top:30px; padding-bottom:20px;">
                     <h1 class="h1-font font-black text-align-center">Presenting the network that never stops</h1>
                 </div>
-                <div class="row" style="padding-bottom:20px;">
-                    <img class="center-block" src="images/arrow_image.png" />
-                </div>
-                <div class="col-md-2 nopadding"></div> 
-                <div class="col-md-8 nopadding">
-                    <p style=" text-align: center;">Build a path breaking cloud platform, connect with experienced infrastructure partners, enable telco-grade networks — that’s how we did it.
-                        We're a technology-led team and nothing excites us more that the next big invention. 
-                        With deep experience in the tradition-ally business-led telco industry, we started One8 to change the paradigm. </p>
-                </div>
-                <div class="col-md-2 nopadding" ></div> 
-                <div class="row row-white" style="padding-bottom:50px;"> </div>
+                <div class="row row-white" style="padding-bottom:25px;">
+                    <div class="col-md-1"> </div>
+                    <div class="col-md-10">
+                        <div align="center" style="padding-bottom:10px;">
+                            <img class="center-block" src="images/arrow_image.png" /> 
+                        </div>
+                        <div class="col-md-2 nopadding"></div> 
+                        <div class="col-md-8 nopadding">
+                            <p style=" text-align: center; padding-top:20px; padding-bottom:20px;">
+                                Build a path breaking cloud platform, connect with experienced infrastructure partners, 
+                        enable telco-grade networks — that’s how we did it.
+                        We're a technology-led team and nothing excites us more than the next big invention. 
+                        With deep experience in the traditionally business-led telco industry, 
+                        we started One8 to change the paradigm. </div>
+                        <div class="col-md-2 nopadding" ></div> 
+                    </div>
+                   
+                    <div class="col-md-1"> </div>
+                </div> 
             </section>
 
             <!-- We’re driven by analtyics -->
@@ -97,9 +106,9 @@
                     </div>
                     <div class="col-md-4 valign">
                         <div>
-                            <h1 style="text-align:center; color:white;"> We’re driven<br> by analtyics</h1> 
+                            <h1 style="text-align:center; color:white;"> We’re driven <br> by analtyics</h1> 
                             <p style="text-align:center; color:white; padding: 0px 20px 0px 20px;">That's what makes all the difference. 
-                                Our advanced could-based analytics 
+                                Our advanced cloud-based analytics 
                                 technology continuously monitors 
                                 usage. This means that not only can 
                                 we ensure that every user gets the 
@@ -115,7 +124,7 @@
 
             <!-- We believe you deserve to know -->
             <section class="col-md-12 col-lg-12 nopadding" id="webelieve">
-                <div class="row" style="padding-top:20px; padding-bottom:20px;">
+                <div class="row" style="padding-top:30px; padding-bottom:20px;">
                     <h1 class="h1-font font-black text-align-center">We believe you deserve to know</h1>
                 </div>
                 <div class="row row-white" style="padding-bottom:25px;">
@@ -126,8 +135,8 @@
                         </div>
                         <div class="col-md-2 nopadding"></div> 
                         <div class="col-md-8 nopadding">
-                            <p style=" text-align: center;">To know what you’re paying for. To know where your data goes. 
-                                That’s the reason why our data plans are exactly about that - data. Choose any plan, rest assured of unparal-leled streaming, surfing or downloading experience. 
+                            <p style=" text-align: center; padding-top:20px; padding-bottom:20px;">To know what you’re paying for. To know where your data goes. 
+                                That’s the reason why our data plans are exactly about that - data. Choose any plan, rest assured of unparalleled streaming, surfing or downloading experience. 
                                 No unnecessary speed caps (other than FUP) and no inaccurate speed tests. 
                                 Starting with simple plans and transparent billing, we're geared to move towards India's first pay-as-you-go model. </p>
                         </div>
@@ -148,7 +157,6 @@
                      </div>-->
                     <div class="col-md-1"> </div>
                 </div>
-                <div class="row row-white" style="padding-bottom:10px;"> </div>
             </section>
 
             <!--We put users first -->

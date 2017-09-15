@@ -29,7 +29,7 @@
                             <div class="col-md-2"></div>
                             <div class="col-md-8">
                                 <div class="row row-white" style="padding-bottom:17%;"> </div>
-                                <p class="faqp1" >No Refund of fixed duration pack or Cancellation of payment transaction is allowed. Any disputes in regards to payments/ refund of transaction(s) due to technical reasons are subject to arbitration / resolution on a case to case basis.</p>
+                                <p class="faqp1" >No Refund of fixed duration pack or Cancellation of payment transaction is allowed. Any disputes in regards to payments / refund of transaction(s) due to technical reasons are subject to arbitration / resolution on a case to case basis.</p>
                                 <div class="row row-white" style="padding-bottom:17%;"> </div>    
                             </div>
                         </div>

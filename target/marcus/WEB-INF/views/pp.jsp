@@ -25,7 +25,7 @@
                 <section class="col-md-12 col-lg-12" id="pp"> 
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="row row-white" style="padding-bottom:3%;"> </div>
+                            
                             <div class="col-md-2"></div>
                             <div class="col-md-8">
 
@@ -42,8 +42,8 @@
                                     <br>Send you periodic communications about our features, products, services, events and special offers.</p>
 
                                 <p class="faqp" >Information Sharing and Disclosure</p>
-                                <p class="faqp1">STOIC-MARCUS<sup>TM</sup> and its authorized third parties will collect information pertaining to your identity, demographics, and related evidentiary documentation.  </br>
-                                    <br> STOIC-MARCUS<sup>TM</sup> may at its discretion employ, contract or include third external to itself for strategic, tactical and operational purposes. Such agencies though external to STOIC-MARCUS<sup>TM</sup>, will always be entities which are covered by non-disclosure agreements.  </br>
+                                <p class="faqp1">ONE8<sup>TM</sup> and its authorized third parties will collect information pertaining to your identity, demographics, and related evidentiary documentation.  </br>
+                                    <br> ONE8<sup>TM</sup> may at its discretion employ, contract or include third external to itself for strategic, tactical and operational purposes. Such agencies though external to ONE8<sup>TM</sup>, will always be entities which are covered by non-disclosure agreements.  </br>
                                     <br> We may also share your personal information with Government agencies or other authorized law enforcement agencies (LEAs) mandated under law to obtain such information for the purpose of verification of identity or for prevention, detection, investigation including but not limited to cyber incidents, prosecution, and punishment of offences.</p>
 
                                 <p class="faqp" >Changes to this Privacy Policy</p>
@@ -52,7 +52,7 @@
                         </div>
                         <div class="col-md-2"></div>
                     </div>
-                   <div class="row row-white" style="padding-bottom:3%;"> </div>
+                   
                      <jsp:include page="components/float.jsp"></jsp:include>
             </section>
         </div>  
