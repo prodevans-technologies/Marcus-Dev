@@ -50,7 +50,7 @@ $("[data-slider]")
 
             if (cityName == 'vic')
             {
-                if (data.value.toFixed(3) == 100)
+                 if (data.value.toFixed(3) == 100)
                 {
                     $("#basic").css('color', '#A9A9A9');
                     $("#premium").css('color', '#A9A9A9');
@@ -58,43 +58,44 @@ $("[data-slider]")
                     $("#dbasic").css('color', '#A9A9A9');
                     $("#dpremium").css('color', '#A9A9A9');
                     $("#dstandard").css('color', '#000000');
-                    $("#slidertextprice").html('&#8377; 0');
-                    $("#slidertextdata").text('0GB Data');
-                    $("#slidertextspeed").text('0Kbps Post FUP Speed');
-                    $("#dslidertextprice").html('&#8377; 0');
-                    $("#dslidertextdata").text('0GB Data');
-                    $("#dslidertextspeed").text('0Kbps Post FUP Speed');
+                    $("#slidertextprice").html('&#8377; 1149');
+                    $("#slidertextdata").text('60 GB Data');
+                    $("#slidertextspeed").text('512 Kbps Post FUP Speed');
+                    $("#dslidertextprice").html('&#8377; 1149');
+                    $("#dslidertextdata").text('60 GB Data');
+                    $("#dslidertextspeed").text('512 Kbps Post FUP Speed');
                 }
                 if (data.value.toFixed(3) == 0)
                 {
-                    $("#basic").css('color', '#A9A9A9');
+
+                    $("#standard").css('color', '#A9A9A9');
                     $("#premium").css('color', '#A9A9A9');
-                    $("#standard").css('color', '#000000');
-                    $("#dbasic").css('color', '#A9A9A9');
+                    $("#basic").css('color', '#000000');
+                    $("#dstandard").css('color', '#A9A9A9');
                     $("#dpremium").css('color', '#A9A9A9');
-                    $("#dstandard").css('color', '#000000');
-                    $("#slidertextprice").html('&#8377; 0');
-                    $("#slidertextdata").text('0GB Data');
-                    $("#slidertextspeed").text('0Kbps Post FUP Speed');
-                    $("#dslidertextprice").html('&#8377; 0');
-                    $("#dslidertextdata").text('0GB Data');
-                    $("#dslidertextspeed").text('0Kbps Post FUP Speed');
+                    $("#dbasic").css('color', '#000000');
+                    $("#slidertextprice").html('&#8377; 850');
+                    $("#slidertextdata").text('40 GB Data');
+                    $("#slidertextspeed").text('512 Kbps Post FUP Speed');
+                    $("#dslidertextprice").html('&#8377; 850');
+                    $("#dslidertextdata").text('40 GB Data');
+                    $("#dslidertextspeed").text('512 Kbps Post FUP Speed');
                 }
                 if (data.value.toFixed(3) == 200)
                 {
 
                     $("#basic").css('color', '#A9A9A9');
-                    $("#premium").css('color', '#A9A9A9');
-                    $("#standard").css('color', '#000000');
+                    $("#premium").css('color', '#000000');
+                    $("#standard").css('color', '#A9A9A9');
                     $("#dbasic").css('color', '#A9A9A9');
-                    $("#dpremium").css('color', '#A9A9A9');
-                    $("#dstandard").css('color', '#000000');
-                    $("#slidertextprice").html('&#8377; 0');
-                    $("#slidertextdata").text('0GB Data');
-                    $("#slidertextspeed").text('0Kbps Post FUP Speed');
-                    $("#dslidertextprice").html('&#8377; 0');
-                    $("#dslidertextdata").text('0GB Data');
-                    $("#dslidertextspeed").text('0Kbps Post FUP Speed');
+                    $("#dpremium").css('color', '#000000');
+                    $("#dstandard").css('color', '#A9A9A9');
+                    $("#slidertextprice").html('&#8377; 1870');
+                    $("#slidertextdata").text('100 GB Data');
+                    $("#slidertextspeed").text('2 Mbps Post FUP Speed');
+                    $("#dslidertextprice").html('&#8377; 1870');
+                    $("#dslidertextdata").text('100 GB Data');
+                    $("#dslidertextspeed").text('2 Mbps Post FUP Speed');
                 }
             }
 

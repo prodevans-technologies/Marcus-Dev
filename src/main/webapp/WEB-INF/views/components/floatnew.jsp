@@ -4,6 +4,7 @@
 
     /*Floating button*/
     #floating-button{
+
         width: 65px;
         height: 65px;
         border-radius: 50%;
@@ -32,7 +33,7 @@
         cursor: pointer;
         box-shadow: 0px 2px 5px #666;
     }
-    @media (max-width : 729px) 
+    @media (max-width : 730px) 
     {
 
         /*Floating button*/
@@ -75,8 +76,8 @@
 
 
 <div id="container-floating">
-    <div id="floating-button" data-toggle="tooltip">
-        <p class="plus valign" style="padding-top: 10px; " >
+    <div id="floating-buttongray" data-toggle="tooltip">
+        <p class="plus valign" style="padding-top: 12px;" >
             <!-- <img src="images/wifi.png" height="20" width="20" /> -->
             <br>
             <a class="external fv" href="${pageContext.request.contextPath }/newconnection">
