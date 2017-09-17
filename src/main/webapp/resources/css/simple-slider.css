@@ -3,7 +3,7 @@
 @media (min-width:319px)
 {
     .slider {
-        width: 95%;
+        width: 70%;
         align-self: center;
     }
 
@@ -14,7 +14,7 @@
 @media (min-width:481px)
 {
     .slider {
-        width: 95%;
+        width: 70%;
         align-self: center;
     }
 }
@@ -24,7 +24,7 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
 {
     .slider {
-        width: 95%;
+        width: 70%;
         align-self: center;
     }
 }
@@ -34,17 +34,21 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
 {
     .slider {
-        width: 95%;
+        width: 70%;
         align-self: center;
     }
 }
+
+
+
+
 
 /* 4. HD laptops and desktops */
 
 @media (min-width:961px)
 {
     .slider {
-        width: 95%;
+        width: 70%;
         align-self: center;
     } 	
 }
