@@ -79,8 +79,8 @@
                         <p class="p-font font-black text-align-center">Three simple data plans. Easy top ups. Instant credits. So you never miss a beat.</p>
                     </div>
                     <p class="p-font font-black text-align-center styled-select slate">
-                        <select class="selectpicker" data-style="btn-warning" id="city" style="background-image:url(images/selectv.jpg); width:195px; -moz-appearance: none; -webkit-appearance: none; border-bottom: 2px solid red; ">
-                            <option value="vic">CHOOSE YOUR CITY</option>
+                        <select class="selectpicker" data-style="btn-warning" id="city" style="background-image:url(images/varrow2.png); background-size: 29px 29px; background-repeat: no-repeat; background-position: right top; width:195px; -moz-appearance: none; -webkit-appearance: none; border-bottom: 2px solid red; ">
+                            <option class="vselect" value="vic">CHOOSE YOUR CITY  </option> 
                             <option value="Bengaluru">Bengaluru</option>
                             <option value="Hyderabad">Hyderabad</option>
                         </select>

@@ -1187,9 +1187,10 @@ textarea {
     color: #ffffff;
 }
 
+
+
+
 /*dropdown*/
-
-
 
 .styled-select {
     height: 29px;
@@ -1224,15 +1225,20 @@ textarea {
 /* Colors: Background */
 .slate   { 
     outline: none;
-    background-color: #ddd;
+    background-color: #000;
 }
-
 /* Colors: Text */
 .slate select   { color: #000; }
 
-
-
-
+select option {
+    
+    background: #ebebeb;
+    color: #000;
+    
+}
+ option:not(:checked) { 
+        background-color: #FFF; 
+    }
 /*Paymeny*/
 .payheader
 {
@@ -1291,4 +1297,18 @@ textarea {
 /*plans*/
 .vplans{
     min-height: 20px;
+}
+
+
+
+
+/*selection color*/
+::-moz-selection { /* Code for Firefox */
+    color: #F44336;
+    background: yellow;
+}
+
+::selection {
+    color: #F44336;
+    background: yellow;
 }
