@@ -79,7 +79,7 @@
                         <p class="p-font font-black text-align-center">Three simple data plans. Easy top ups. Instant credits. So you never miss a beat.</p>
                     </div>
                     <p class="p-font font-black text-align-center styled-select slate">
-                        <select class="selectpicker" data-style="btn-warning" id="city" style="background-image:url(images/select1.jpg); width:195px; -webkit-appearance: none; border-bottom: 2px solid red; ">
+                        <select class="selectpicker" data-style="btn-warning" id="city" style="background-image:url(images/selectv.jpg); width:195px; -moz-appearance: none; -webkit-appearance: none; border-bottom: 2px solid red; ">
                             <option value="vic">CHOOSE YOUR CITY</option>
                             <option value="Bengaluru">Bengaluru</option>
                             <option value="Hyderabad">Hyderabad</option>
@@ -130,37 +130,47 @@
                 <!-- mobile & firefox-->
                 <div id="is-mobile" class="show" style="padding-bottom:10px; padding-top: 10px;">
                     <div class="container-fluid">
-                        <div class="row sec2row sec2blk_eq_ht ">
-                            <div class="flex-row">
-                            <div class="col-md-2"> 
-                            </div>
-                            <div class="col-md-4 sec2block vplans">
-                                <h3 class="sec2hd2" style="padding-bottom:10px;">PLANS</h3>
-                                <div class="col-md-3 vcenter" ><h4 class="sec2hd22"><span id="basic">BASIC </span></h4></div>
-                                <div class="col-md-5 vcenter"><h4 class="sec2hd2"><span id="standard">STANDARD</span></h4></div>
-                                <div class="col-md-4 vcenter"><h4 class="sec2hd222"><span id="premium">PREMIUM</span></h4></div>
-                                <div id="slider-text" class="col-md-12 vco hidden-xs" align="center" padding-right="5px"; padding-left="5px";>
-                                    <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
+                        <div class="row sec2row sec2blk_eq_ht col3">
+                            <div class="col-md-2 col2" style=" margin-left:-20px;">    </div>
+                            <!-- plan silder -->                                            
+                            <div class="col-md-4 sec2block vplans col1">
+                                <div> 
+                                    <h3 class="sec2hd2" style="padding-bottom:10px;">PLANS</h3>
+                                    <div class="col-md-3 vcenter" >
+                                        <h4 class="sec2hd22"><span id="basic">BASIC </span></h4>
+                                    </div>
+                                    <div class="col-md-5 vcenter">
+                                        <h4 class="sec2hd2"><span id="standard">STANDARD</span></h4>
+                                    </div>
+                                    <div class="col-md-4 vcenter">
+                                        <h4 class="sec2hd222"><span id="premium">PREMIUM</span></h4>
+                                    </div>
+                                    <div id="slider-text" class="col-md-12 vco hidden-xs" align="center" padding-right="5px"; padding-left="5px";>
+                                        <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
+                                    </div>
+                                    <p class="sec2slidetotext vplans" style="padding-bottom:8px;">Slide to explore plans</p>
+                                    <p class="sec2blktxt vplans" style="margin-bottom: 3px;">Already a Customer? </p>
+                                    <p class="sec2blktxt vplans"> <a href="">Log in to</a> change plans or check usage.</p>
                                 </div>
-                                <p class="sec2slidetotext vplans" style="padding-bottom:8px;">Slide to explore plans</p>
-                                <p class="sec2blktxt vplans" style="margin-bottom: 3px;">Already a Customer? </p>
-                                <p class="sec2blktxt vplans"> <a href="">Log in to</a> change plans or check usage.</p>
                             </div>
-                            <div class="col-md-4 sec2block vplans" >
-                                <h3 class="plan_rs separating_line"><div id="dslidertextprice"/></h3> 
-                                <p class="sec2blktxt vplans" style=" padding-top:3px;"> &bull; &nbsp;<span id="dslidertextdata"> </span> &bull;&nbsp;<span id="dslidertextspeed"></span></p>
-                                <p class="sec2slidetotext vplans" style="margin-bottom: 3px;"> &bull; &nbsp; Exclusive of GST</p>
-                                <div class="col-md-12 text-center sec2btnpadding" style="padding-top:27px;">
-                                    <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                            
+
+                            <!-- price display -->
+
+                            <div class="col-md-4 sec2block vplan col2">
+                                <div> 
+                                    <h3 class="plan_rs separating_line"><div id="dslidertextprice"/></h3> 
+                                    <p class="sec2blktxt vplans" style=" padding-top:3px;"> &bull; &nbsp;<span id="dslidertextdata"> </span> &bull;&nbsp;<span id="dslidertextspeed"></span></p>
+                                    <p class="sec2slidetotext vplans" style="margin-bottom: 3px;"> &bull; &nbsp; Exclusive of GST</p>
+                                    <div class="col-md-12 text-center sec2btnpadding" style="padding-top:27px;">
+                                        <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                            
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-2"> 
-                            </div>
-                            
-                            </div>
-                        </div>
+                            </div>   
+                            <div class="col-md-2 col1" style=" margin-right: -20px;">    </div>
+                        </div> <!-- row div -->
                     </div>
-                </div>
+                </div> <!-- mobile and firefox -->
+
                 <div class="row row-white" style="padding-bottom:50px;"> </div>
             </section>
 
@@ -308,7 +318,7 @@
 
             <!-- Footer -->
         <jsp:include page="components/footer.jsp"></jsp:include>
-
+     
         <script src="js/jquery.min.js"></script>     
         <script src="js/bootstrap.min.js"></script>     
         <script src="js/jquery.singlePageNav.min.js"></script>     
@@ -316,5 +326,11 @@
         <script src="js/jquery.session.js"></script>
         <script src="js/nav.js"></script>    
         <script src="js/city.js"></script>
+           <script>
+            $(window).ready(function () {
+                $('.col1').css('min-height', $('.col3').height() + 'px');
+                $('.col2').css('min-height', $('.col1').height() + 'px');
+            });
+        </script>
     </body>
 </html>
