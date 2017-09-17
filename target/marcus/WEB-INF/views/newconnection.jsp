@@ -10,19 +10,21 @@
         <body> 
             <!-- Navigation -->
         <jsp:include page="components/footerpagenav.jsp"></jsp:include>   
-
+            <section class="col-md-12 col-lg-12 nopadding" id="home"> 
+                <div class="row flex-row" style="background-image: url(images/faq1.png);" >
+                    <div class="col-md-12 faqheader faaqheaderpadding ">
+                        <h1 class="h1-font"> New Connection</h1>
+                    </div>
+                </div>             
+            </section>
             <!-- Main container -->
             <div class="container-fluid nopadding"> 
                 <!-- Never stop -->
-                <section class="col-md-12 col-lg-12 nopadding" id="home"> 
+                <section class="col-md-12 col-lg-12 nopadding" > 
                     <div class="row row-white" style="padding-bottom:3%;"> </div>
                 <form:form class="row" action="newconnectionRequestPage" method="post" modelAttribute="newConnectionDetails">
 
-                    <div class="col-md-12 valign ">
-                        <div>
-                            <h1 style="text-align:center;">New Connection</h1> 
-                        </div>
-                    </div>
+
                     <div class="col-md-12 ">
                         <div class="col-md-3 "></div>
                         <div class="col-md-6  " style="text-align:left;">
@@ -54,8 +56,8 @@
                         </div>
                     </div>
                     <div class="col-md-12  "></div>
-                    <div class="col-md-5  "></div>
-                    <div class="col-md-2 buttonright" align="right">
+                    
+                    <div class="col-md-9 buttonright" align="right">
                         <button type="submit" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
                     </div>
 
