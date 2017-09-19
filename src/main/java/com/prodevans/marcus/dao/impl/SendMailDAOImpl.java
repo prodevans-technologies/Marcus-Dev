@@ -1,11 +1,9 @@
 package com.prodevans.marcus.dao.impl;
 
 import java.util.Vector;
-
 import org.apache.xmlrpc.XmlRpcException;
 import org.apache.xmlrpc.client.XmlRpcClient;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import com.prodevans.marcus.dao.SendMailDAO;
 import com.prodevans.marcus.pojo.SendMailDetails;
 
@@ -24,7 +22,6 @@ public class SendMailDAOImpl implements SendMailDAO {
         this.rpcClient = rpcClient;
     }
 
-    
     @Override
     public Boolean sentMailContactUs(SendMailDetails feedback) throws XmlRpcException {
         Vector params = new Vector();
@@ -45,9 +42,7 @@ public class SendMailDAOImpl implements SendMailDAO {
         params.add("New Connection..");
         params.add("suguna@oneeight.co.in");
         params.add(1);
-
         Boolean mailResult = (Boolean) rpcClient.execute(unifyHandler + ".sendMail", params);
-
         System.out.println("mail send successfully");
 
         return mailResult;

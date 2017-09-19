@@ -1231,14 +1231,14 @@ textarea {
 .slate select   { color: #000; }
 
 select option {
-    
+
     background: #ebebeb;
     color: #000;
-    
+
 }
- option:not(:checked) { 
-        background-color: #FFF; 
-    }
+option:not(:checked) { 
+    background-color: #FFF; 
+}
 /*Paymeny*/
 .payheader
 {
