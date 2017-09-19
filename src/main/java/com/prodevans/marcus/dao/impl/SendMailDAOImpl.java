@@ -24,6 +24,7 @@ public class SendMailDAOImpl implements SendMailDAO {
         this.rpcClient = rpcClient;
     }
 
+    
     @Override
     public Boolean sentMailContactUs(SendMailDetails feedback) throws XmlRpcException {
         Vector params = new Vector();
