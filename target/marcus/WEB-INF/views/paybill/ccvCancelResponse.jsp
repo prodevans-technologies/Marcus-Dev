@@ -127,7 +127,7 @@
                     <h1 class="h1-font"> Bill payment</h1>
                 </div>
 				<div class="col-md-7  paayheaderpadding ">
-                    <h1 class="h1-font"> Your transaction was unsuccessful. &nbsp;<img height="40" width="40"  alt="Check Image" src="images/cross1.png"></h1>
+                    <h1 class="h1-font"> Your transaction was unsuccessful. &nbsp;<img height="34" width="34"  alt="Check Image" src="images/cross1.png"></h1>
                 </div>
 				
             </div>             
@@ -138,7 +138,7 @@
         <section class="col-md-12 col-lg-12 nopadding"> 
             <div class="row flex-row" style="background-color:#fff; ">
                 <div class="col-md-4 valign " ">
-                   <p class="payp">Payment Summary</p>
+                   
                 </div>
                 <div class="col-md-7  nopadding" style=" margin:1%; padding:2% ; float:right; background-color:#0072ce; " >
                     <p class="payp">Payment Summary</p>
