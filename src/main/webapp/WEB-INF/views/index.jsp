@@ -184,7 +184,7 @@
                         <div>
                             <h1 style="text-align:center; color:white;"> Never slow down</h1> 
                             <p style="text-align:center; color:white; padding: 0px 20px 0px 20px;">Stream, download, post or game lag-free any time of the day — our 
-                                intelligent network prioritises 
+                                thinking network prioritises 
                                 bandwidth across users and apps 
                                 dynamically. <br><br>
                                 Watching GoT? It steps on the gas. 

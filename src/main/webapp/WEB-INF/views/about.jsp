@@ -106,7 +106,7 @@
                     </div>
                     <div class="col-md-4 valign">
                         <div>
-                            <h1 style="text-align:center; color:white;"> We’re driven <br> by analtyics</h1> 
+                            <h1 style="text-align:center; color:white;"> We’re driven <br> by analytics</h1> 
                             <p style="text-align:center; color:white; padding: 0px 20px 0px 20px;">That's what makes all the difference. 
                                 Our advanced cloud-based analytics 
                                 technology continuously monitors 
