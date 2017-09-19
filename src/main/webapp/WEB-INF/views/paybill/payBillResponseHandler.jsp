@@ -115,7 +115,7 @@ if(success)
                     <h1 class="h1-font"> Bill payment</h1>
                 </div>
 				<div class="col-md-7  paayheaderpadding ">
-                    <h1 class="h1-font"> Your transaction was successful. &nbsp;<img height="40" width="35"  alt="Check Image" src="images/check.png"></h1>
+                    <h1 class="h1-font"> Your transaction was successful. &nbsp;<img height="40" width="40"  alt="Check Image" src="images/check.png"></h1>
                 </div>
 				
             </div>             

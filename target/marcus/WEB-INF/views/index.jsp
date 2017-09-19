@@ -104,7 +104,7 @@
                             </div>
                             <p class="sec2blkpara">Slide to explore plans</p>
                             <p class="sec2blktxt">Already a Customer? </p>
-                            <p class="sec2blktxt"> <a href="http://52.172.215.71/zeno/login">Log in to</a> check usage.</p>
+                            <p class="sec2blktxt"> <a class="external" href="http://52.172.215.71/zeno/login">Log in to</a> check usage.</p>
 
                         </div>
                         <!--  </div> top row -->
@@ -150,7 +150,7 @@
                                     </div>
                                     <p class="sec2slidetotext vplans" style="padding-bottom:8px;">Slide to explore plans</p>
                                     <p class="sec2blktxt vplans" style="margin-bottom: 3px;">Already a Customer? </p>
-                                    <p class="sec2blktxt vplans"> <a href="">Log in to</a> change plans or check usage.</p>
+                                    <p class="sec2blktxt vplans"> <a class="external" href="http://52.172.215.71/zeno/login">Log in to</a> change plans or check usage.</p>
                                 </div>
                             </div>
 
