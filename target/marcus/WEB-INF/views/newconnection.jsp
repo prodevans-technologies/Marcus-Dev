@@ -59,6 +59,11 @@
                     
                     <div class="col-md-9 buttonright" align="right">
                         <button type="submit" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
+                    <h3 style="color:green; text-align: center;">
+                                 	<b>
+											<c:if test="${ not empty msg2}">${msg2}</c:if>
+									</b>
+								</h3>
                     </div>
 
                 </form:form>

@@ -17,6 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.prodevans.marcus.dao.impl.SendMailDAOImpl;
 import com.prodevans.marcus.pojo.SendMailDetails;
 
+
 @Controller
 public class SendMailController {
 
@@ -29,25 +30,46 @@ public class SendMailController {
 
     @RequestMapping(value = "/contactus", method = RequestMethod.GET)
     public ModelAndView contactus(ModelMap model, HttpSession session) {
+    	
+    	//System.out.print(session.getAttribute(msg1));
+			if(session.getAttribute("successfull") != null)
+			{
+				session.removeAttribute("successfull");
+				model.addAttribute("msg1", "One8 team will get back to you soon.");
+			}
+			
         return new ModelAndView("contactus", "contactusDetails", new SendMailDetails());
     }
+
 
     @RequestMapping(value = "/contactusRequestPage", method = RequestMethod.POST)
     public String contactusRequest(ModelMap model, HttpSession session, @ModelAttribute(name = "contactusDetails") SendMailDetails feedback) throws XmlRpcException {
         boolean result = feedbackDAOImpl.sentMailContactUs(feedback);
+        session.setAttribute("successfull", "successfull");
+        
         return "redirect:contactus";
     }
 
     @RequestMapping(value = "/newconnection", method = RequestMethod.GET)
-    public ModelAndView newconnection(Locale locale, Model model) {
+    public ModelAndView newconnection(Locale locale, Model model,HttpSession session){
+    	
+			
+    	if(session.getAttribute("successfull") != null)
+		{
+			session.removeAttribute("successfull");
+			model.addAttribute("msg2", "Thank you for your interest One8 team will get in touch with you shortly.");
+		}
+			
 
         return new ModelAndView("newconnection", "newConnectionDetails", new SendMailDetails());
 
     }
 
+
     @RequestMapping(value = "/newconnectionRequestPage", method = RequestMethod.POST)
     public String newconnectionRequestPage(ModelMap model, HttpSession session, @ModelAttribute(name = "newconnection") SendMailDetails feedback) throws XmlRpcException {
         boolean result = feedbackDAOImpl.sentMailNewConnection(feedback);
+        session.setAttribute("successfull", "successfull");
         return "redirect:newconnection";
     }
 
