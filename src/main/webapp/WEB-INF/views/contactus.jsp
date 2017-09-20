@@ -41,7 +41,7 @@
                                 <div class="row row-white" style="padding-top: 4%; padding-bottom:3%;"> </div>
                                 <p class="faqp" style="padding-left: 20px;  text-align:left;">Contact</p> 
                                 <p class="faqp1"  style="padding-left: 20px; text-align:left; padding-bottom: -5px;">
-                                    080-30323000
+                                    +91 90196 02602
                                 </p>
                                 <div class="row row-white" style="padding-top: 3%; padding-bottom:6%;"> </div>
                                 <p class="faqp"  style="padding-left: 20px; text-align:left; padding-bottom: -5px;">Mail</p> 
