@@ -80,7 +80,7 @@
                     </div>
                     <p class="p-font font-black text-align-center styled-select slate">
                         <select class="selectpicker" data-style="btn-warning" id="city" style="background-image:url(images/varrow2.png); background-size: 29px 29px; background-repeat: no-repeat; background-position: right top; width:195px; -moz-appearance: none; -webkit-appearance: none; border-bottom: 2px solid red; ">
-                            <option class="vselect" value="vic">CHOOSE YOUR CITY  </option> 
+                            <option value="vic">CHOOSE YOUR CITY  </option> 
                             <option value="Bengaluru">Bengaluru</option>
                             <option value="Hyderabad">Hyderabad</option>
                         </select>
