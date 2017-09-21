@@ -84,7 +84,7 @@
                             </div>
                             <div class="col-md-2  "></div>
                             <div class="col-md-9 buttonright" align="right" style="padding-top: 1%;">
-                                <button type="submit" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
+                                <button id="submitButton" type="submit" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
                                  <h3 style="color:green; text-align: center;">
                                  	<b>
 											<c:if test="${ not empty msg1}">${msg1}</c:if>
