@@ -50,58 +50,22 @@ $("[data-slider]")
 
             if (cityName == 'vic')
             {
-                 if (data.value.toFixed(3) == 100)
+               if (data.value.toFixed(3) == 0)
                 {
-                    $("#basic").css('color', '#A9A9A9');
-                    $("#premium").css('color', '#A9A9A9');
-                    $("#standard").css('color', '#000000');
-                    $("#dbasic").css('color', '#A9A9A9');
-                    $("#dpremium").css('color', '#A9A9A9');
-                    $("#dstandard").css('color', '#000000');
-                    $("#slidertextprice").html('&#8377; 1149');
-                    $("#slidertextdata").text('60 GB Data');
-                    $("#slidertextspeed").text('512 Kbps Post FUP Speed');
-                    $("#dslidertextprice").html('&#8377; 1149');
-                    $("#dslidertextdata").text('60 GB Data');
-                    $("#dslidertextspeed").text('512 Kbps Post FUP Speed');
-                }
-                if (data.value.toFixed(3) == 0)
-                {
-
                     $("#standard").css('color', '#A9A9A9');
                     $("#premium").css('color', '#A9A9A9');
                     $("#basic").css('color', '#000000');
                     $("#dstandard").css('color', '#A9A9A9');
                     $("#dpremium").css('color', '#A9A9A9');
                     $("#dbasic").css('color', '#000000');
-                    $("#slidertextprice").html('&#8377; 850');
+                    $("#slidertextprice").html('&#8377; 849');
                     $("#slidertextdata").text('40 GB Data');
                     $("#slidertextspeed").text('512 Kbps Post FUP Speed');
-                    $("#dslidertextprice").html('&#8377; 850');
+                    $("#dslidertextprice").html('&#8377; 848');
                     $("#dslidertextdata").text('40 GB Data');
                     $("#dslidertextspeed").text('512 Kbps Post FUP Speed');
                 }
-                if (data.value.toFixed(3) == 200)
-                {
-
-                    $("#basic").css('color', '#A9A9A9');
-                    $("#premium").css('color', '#000000');
-                    $("#standard").css('color', '#A9A9A9');
-                    $("#dbasic").css('color', '#A9A9A9');
-                    $("#dpremium").css('color', '#000000');
-                    $("#dstandard").css('color', '#A9A9A9');
-                    $("#slidertextprice").html('&#8377; 1870');
-                    $("#slidertextdata").text('100 GB Data');
-                    $("#slidertextspeed").text('2 Mbps Post FUP Speed');
-                    $("#dslidertextprice").html('&#8377; 1870');
-                    $("#dslidertextdata").text('100 GB Data');
-                    $("#dslidertextspeed").text('2 Mbps Post FUP Speed');
-                }
-            }
-
-            if (cityName == 'Bengaluru')
-            {
-
+                
                 if (data.value.toFixed(3) == 100)
                 {
                     $("#basic").css('color', '#A9A9A9');
@@ -113,10 +77,31 @@ $("[data-slider]")
                     $("#slidertextprice").html('&#8377; 1140');
                     $("#slidertextdata").text('60 GB Data');
                     $("#slidertextspeed").text('512 Kbps Post FUP Speed');
-                    $("#dslidertextprice").html('&#8377; 1140');
+                    $("#dslidertextprice").html('&#8377; 1139');
                     $("#dslidertextdata").text('60 GB Data');
                     $("#dslidertextspeed").text('512 Kbps Post FUP Speed');
                 }
+               
+                if (data.value.toFixed(3) == 200)
+                {
+
+                    $("#basic").css('color', '#A9A9A9');
+                    $("#premium").css('color', '#000000');
+                    $("#standard").css('color', '#A9A9A9');
+                    $("#dbasic").css('color', '#A9A9A9');
+                    $("#dpremium").css('color', '#000000');
+                    $("#dstandard").css('color', '#A9A9A9');
+                    $("#slidertextprice").html('&#8377; 1875');
+                    $("#slidertextdata").text('100 GB Data');
+                    $("#slidertextspeed").text('2 Mbps Post FUP Speed');
+                    $("#dslidertextprice").html('&#8377; 1874');
+                    $("#dslidertextdata").text('100 GB Data');
+                    $("#dslidertextspeed").text('2 Mbps Post FUP Speed');
+                }
+            }
+
+            if (cityName == 'Bengaluru')
+            {
                 if (data.value.toFixed(3) == 0)
                 {
 
@@ -133,6 +118,23 @@ $("[data-slider]")
                     $("#dslidertextdata").text('40 GB Data');
                     $("#dslidertextspeed").text('512 Kbps Post FUP Speed');
                 }
+                
+                if (data.value.toFixed(3) == 100)
+                {
+                    $("#basic").css('color', '#A9A9A9');
+                    $("#premium").css('color', '#A9A9A9');
+                    $("#standard").css('color', '#000000');
+                    $("#dbasic").css('color', '#A9A9A9');
+                    $("#dpremium").css('color', '#A9A9A9');
+                    $("#dstandard").css('color', '#000000');
+                    $("#slidertextprice").html('&#8377; 1140');
+                    $("#slidertextdata").text('60 GB Data');
+                    $("#slidertextspeed").text('512 Kbps Post FUP Speed');
+                    $("#dslidertextprice").html('&#8377; 1140');
+                    $("#dslidertextdata").text('60 GB Data');
+                    $("#dslidertextspeed").text('512 Kbps Post FUP Speed');
+                }
+               
                 if (data.value.toFixed(3) == 200)
                 {
 
@@ -152,22 +154,7 @@ $("[data-slider]")
             }
             if (cityName == 'Hyderabad')
             {
-
-                if (data.value.toFixed(3) == 100)
-                {
-                    $("#basic").css('color', '#A9A9A9');
-                    $("#premium").css('color', '#A9A9A9');
-                    $("#standard").css('color', '#000000');
-                    $("#dbasic").css('color', '#A9A9A9');
-                    $("#dpremium").css('color', '#A9A9A9');
-                    $("#dstandard").css('color', '#000000');
-                    $("#slidertextprice").html('&#8377; 100');
-                    $("#slidertextdata").text('50 GB Data');
-                    $("#slidertextspeed").text('512 Kbps Post FUP Speed');
-                    $("#dslidertextprice").html('&#8377; 100');
-                    $("#dslidertextdata").text('50 GB Data');
-                    $("#dslidertextspeed").text('512 Kbps Post FUP Speed');
-                }
+                
                 if (data.value.toFixed(3) == 0)
                 {
 
@@ -178,12 +165,29 @@ $("[data-slider]")
                     $("#dpremium").css('color', '#A9A9A9');
                     $("#dbasic").css('color', '#000000');
                     $("#slidertextprice").html('&#8377; 200');
-                    $("#slidertextdata").text('40 GB Data');
+                    $("#slidertextdata").text('60 GB Data');
                     $("#slidertextspeed").text('512 Kbps Post FUP Speed');
-                    $("#dslidertextprice").html('&#8377; 200');
-                    $("#dslidertextdata").text('40 GB Data');
+                    $("#dslidertextprice").html('&#8377; 849');
+                    $("#dslidertextdata").text('60 GB Data');
                     $("#dslidertextspeed").text('512 Kbps Post FUP Speed');
                 }
+                
+                if (data.value.toFixed(3) == 100)
+                {
+                    $("#basic").css('color', '#A9A9A9');
+                    $("#premium").css('color', '#A9A9A9');
+                    $("#standard").css('color', '#000000');
+                    $("#dbasic").css('color', '#A9A9A9');
+                    $("#dpremium").css('color', '#A9A9A9');
+                    $("#dstandard").css('color', '#000000');
+                    $("#slidertextprice").html('&#8377; 100');
+                    $("#slidertextdata").text('90 GB Data');
+                    $("#slidertextspeed").text('512 Kbps Post FUP Speed');
+                    $("#dslidertextprice").html('&#8377; 1199');
+                    $("#dslidertextdata").text('90 GB Data');
+                    $("#dslidertextspeed").text('512 Kbps Post FUP Speed');
+                }
+                
                 if (data.value.toFixed(3) == 200)
                 {
 
@@ -194,10 +198,10 @@ $("[data-slider]")
                     $("#dpremium").css('color', '#000000');
                     $("#dstandard").css('color', '#A9A9A9');
                     $("#slidertextprice").html('&#8377; 300');
-                    $("#slidertextdata").text('100 GB Data');
+                    $("#slidertextdata").text('150 GB Data');
                     $("#slidertextspeed").text('2 Mbps Post FUP Speed');
-                    $("#dslidertextprice").html('&#8377; 300');
-                    $("#dslidertextdata").text('100 GB Data');
+                    $("#dslidertextprice").html('&#8377; 1875');
+                    $("#dslidertextdata").text('150 GB Data');
                     $("#dslidertextspeed").text('2 Mbps Post FUP Speed');
                 }
             }

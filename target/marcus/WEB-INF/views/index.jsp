@@ -81,8 +81,8 @@
                     <p class="p-font font-black text-align-center styled-select slate">
                         <select class="selectpicker" data-style="btn-warning" id="city" style="background-image:url(images/varrow2.png); background-size: 29px 29px; background-repeat: no-repeat; background-position: right top; width:195px; -moz-appearance: none; -webkit-appearance: none; border-bottom: 2px solid red; ">
                             <option class="vselect" value="vic">CHOOSE YOUR CITY  </option> 
-                            <option value="Bengaluru">Bengaluru</option>
-                            <option value="Hyderabad">Hyderabad</option>
+                            <option class="vselect" value="Bengaluru">Bengaluru</option>
+                            <option class="vselect" value="Hyderabad">Hyderabad</option>
                         </select>
                     </p>
                 </div>
@@ -97,7 +97,7 @@
 
                             <h2 class="sec5hd2 text-align-center">PLANS</h2>
 
-                            <h4 class="text-align-center" ><span id="dbasic">BASIC </span>&nbsp; &nbsp;<span id="dstandard">STANDARD</span> &nbsp; &nbsp;<span id="dpremium">PREMIUM</span></h4>
+                            <h4 class="text-align-center" ><span id="dbasic">STARTER</span>&nbsp;&nbsp;<span id="dstandard">POWER</span>&nbsp;&nbsp;<span id="dpremium">PRO</span></h4>
 
                             <div id="slider-text" align="center">
                                 <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
@@ -136,16 +136,18 @@
                             <div class="col-md-4 sec2block vplans col1">
                                 <div> 
                                     <h3 class="sec2hd2" style="padding-bottom:10px;">PLANS</h3>
-                                    <div class="col-md-3 vcenter" >
-                                        <h4 class="sec2hd22"><span id="basic">BASIC </span></h4>
+                                    <div class="col-md-1 vcenter" ></div>
+                                    <div class="col-md-4 vcenter" >
+                                        <h4 class="sec2hd22"><span id="basic">STARTER </span></h4>
                                     </div>
-                                    <div class="col-md-5 vcenter">
-                                        <h4 class="sec2hd2"><span id="standard">STANDARD</span></h4>
+                                    <div class="col-md-3 vcenter" align="center">
+                                        <h4 class="sec2hd2"><span id="standard">POWER</span></h4>
                                     </div>
-                                    <div class="col-md-4 vcenter">
-                                        <h4 class="sec2hd222"><span id="premium">PREMIUM</span></h4>
+                                    <div class="col-md-3 vcenter">
+                                        <h4 class="sec2hd222"><span id="premium">PRO</span></h4>
                                     </div>
-                                    <div id="slider-text" class="col-md-12 vco hidden-xs" align="center" padding-right="5px"; padding-left="5px";>
+                                    <div class="col-md-1" ></div>
+                                    <div id="slider-text" class="col-md-11 vco hidden-xs" align="center" padding-right="5px"; padding-left="5px";>
                                         <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
                                     </div>
                                     <p class="sec2slidetotext vplans" style="padding-bottom:8px;">Slide to explore plans</p>
