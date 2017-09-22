@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<meta name="description" content="" />
-<meta name="keywords" content="" />
+<meta name="description" content="One8 brings homes and businesses the most intelligent, intuitive and transparent broadband internet experience with the best speed-agnostic data  plans." />
+<meta name="keywords" content="Internet, broadband, FTTH, FTTB, Bengaluru, Hyderabad, fibre optic, connection, technology, telecom, communication, wifi, hotspot, Mbps, GBPS, FUP, web, cable, network, cube, upload, download, speed" />
 <meta name="author" content="ONE8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
