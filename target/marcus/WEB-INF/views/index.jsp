@@ -73,7 +73,7 @@
 
             <!-- Never run out -->
             <section class="col-md-12 col-lg-12" id="plans"> 
-                <div class="row" style="padding-top:50px;padding-bottom:20px;">
+                <div class="row" style="padding-top:60px;padding-bottom:20px;">
                     <h1 class="h1-font font-black text-align-center">Never run out</h1>
                     <div class="row" style="padding-bottom:20px;">
                         <p class="p-font font-black text-align-center">Three simple data plans. Easy top ups. Instant credits. So you never miss a beat.</p>
@@ -175,7 +175,7 @@
                     </div>
                 </div> <!-- mobile and firefox -->
 
-                <div class="row row-white" style="padding-bottom:50px;"> </div>
+                <div class="row row-white" style="padding-bottom:60px;"> </div>
             </section>
 
             <!-- Never Slow DOwn -->
