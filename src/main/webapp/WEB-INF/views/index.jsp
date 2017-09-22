@@ -136,8 +136,8 @@
                             <div class="col-md-4 sec2block vplans col1">
                                 <div> 
                                     <h3 class="sec2hd2" style="padding-top: 15px; padding-bottom:10px;">PLANS</h3>
-                                    <div class="col-md-1 vcenter" ></div>
-                                    <div class="col-md-3 vcenter" >
+                                    <div class="col-md-0 vcenter" ></div>
+                                    <div class="col-md-4 vcenter" >
                                         <h4 class="sec2hd22"><span id="basic">STARTER </span></h4>
                                     </div>
                                     <div class="col-md-4 vcenter" align="center">
