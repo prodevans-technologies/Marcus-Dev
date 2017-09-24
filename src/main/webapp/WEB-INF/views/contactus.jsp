@@ -58,42 +58,42 @@
                 </section>
                 <div class="row row-white" style="padding-bottom:30px;"> </div>
                 <section class="col-md-12 col-lg-12 nopadding"> 
-                    
-                    
-                    <form:form class="row" action="contactusRequestPage" method="post" name="contact" modelAttribute="contactusDetails">
-                        <div class="row flex-row" style="background-color:#ffffff; ">
 
-                            <div class="col-md-1  "></div>
-                            <div class="col-md-5  " style="text-align:left;">
-                                <form:input type="text" required="required" path="name" id="Name" name="name" placeholder="Name" />
-                            </div>
-                            <div class="col-md-5  " style="text-align:left;">
-                                <form:input type="email" required="required" path="email_id" id="email_id" name="email_id" placeholder="Email" />
-                            </div>
-                            <div class="col-md-1  "></div>
-                            <div class="col-md-1  "></div>
-                            <div class="col-md-10  " style="text-align:left;">
-                                <form:input type="text" required="required" path="subject" id="subject" name="subject" placeholder="Subject"/>
-                            </div>
-                        </div>  
-                        <div class="col-md-12 "></div>
-                        <div class="row row-white" style="padding-bottom:30px;"> </div>
+
+                <form:form class="row" action="contactusRequestPage" method="post" name="contact" modelAttribute="contactusDetails">
+                    <div class="row flex-row" style="background-color:#ffffff; ">
+
                         <div class="col-md-1  "></div>
-                        <div class="col-md-10  " style="text-align:left; ">
-                            <form:textarea path="message" required="required" rows="7" name="message" placeholder="Message"></form:textarea>
-                            </div>
-                            <div class="col-md-2  "></div>
-                            <div class="col-md-9 buttonright" align="right" style="padding-top: 1%;">
-                                <button id="submitButton" type="submit" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
-                                 <h3 style="color:green; text-align: center;">
-                                 	<b>
-											<c:if test="${ not empty msg1}">${msg1}</c:if>
-									</b>
-								</h3>
-                            </div>
-                           
-                    </form:form>
-               
+                        <div class="col-md-5  " style="text-align:left;">
+                            <form:input type="text" required="required" path="name" id="Name" name="name" placeholder="Name" />
+                        </div>
+                        <div class="col-md-5  " style="text-align:left;">
+                            <form:input type="email" required="required" path="email_id" id="email_id" name="email_id" placeholder="Email" />
+                        </div>
+                        <div class="col-md-1  "></div>
+                        <div class="col-md-1  "></div>
+                        <div class="col-md-10  " style="text-align:left;">
+                            <form:input type="text" required="required" path="subject" id="subject" name="subject" placeholder="Subject"/>
+                        </div>
+                    </div>  
+                    <div class="col-md-12 "></div>
+                    <div class="row row-white" style="padding-bottom:30px;"> </div>
+                    <div class="col-md-1  "></div>
+                    <div class="col-md-10  " style="text-align:left; ">
+                        <form:textarea path="message" required="required" rows="7" name="message" placeholder="Message"></form:textarea>
+                        </div>
+                        <div class="col-md-2  "></div>
+                        <div class="col-md-9 buttonright" align="right" style="padding-top: 1%;">
+                            <button id="submitButton" type="submit" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
+                            <h3 style="color:green; text-align: center;">
+                                <b>
+                                <c:if test="${ not empty msg1}">${msg1}</c:if>
+                                </b>
+                            </h3>
+                        </div>
+
+                </form:form>
+
             </section>
             <jsp:include page="components/float.jsp"></jsp:include>
             </div>  <!-- Main container end -->   
