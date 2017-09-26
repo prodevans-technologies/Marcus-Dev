@@ -82,4 +82,9 @@ public class HomeController {
         return "tc";
     }
 
+    @RequestMapping(value = "/zeno", method = RequestMethod.GET)
+    public String zeno() {
+
+        return "redirect:http://52.172.215.71/zeno/login";
+    }
 }

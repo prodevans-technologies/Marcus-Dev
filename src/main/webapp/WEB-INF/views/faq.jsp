@@ -43,7 +43,7 @@
                                 <h1 class="h1-font">New Connection </h1>
 
                                 <p class="faqp">How can I sign up for a new connection? </p>
-                                <p class="faqp1">Sign up online <a class="external" href="${pageContext.request.contextPath }/newconnection"><b>here</b></a> and our customer care executives will get in touch with you within 24 hours. </p>
+                                <p class="faqp1">Sign up online <a class="external" href="${pageContext.request.contextPath }/newconnection" newconnection"><b>here</b></a> and our customer care executives will get in touch with you within 24 hours. </p>
 
 
                                 <p class="faqp">What is the cost of a new connection? </p>
@@ -78,10 +78,10 @@
                                 <p class="faqp1">With our speed-agnostic plans, the only question you need to ask your-self is how much data you need — because with One8, lag-free speed is a guarantee. If you are unsure of how much data you typically use, start with our Basic Package. If you need more, you can Top Up with ease or migrate to a new plan at the tap of a finger. Once you finish your data for the month, while you will be able to continue surfing, as per FUP rules, your speed will be capped at 512 kbps. </p>
 
                                 <p class="faqp">How do I change my plan? </p>
-                                <p class="faqp1">Current plan too limited? Upgrade with ease <a class="external" href="http://52.172.215.71/zeno/login"><b>here</b></a>. Once we receive your request, our customer care executive will be in touch with you in 2-3 business days. </p>
+                                <p class="faqp1">Current plan too limited? Upgrade with ease <a class="external" href="${pageContext.request.contextPath }/zeno"><b>here</b></a>. Once we receive your request, our customer care executive will be in touch with you in 2-3 business days. </p>
 
                                 <p class="faqp" >Can I get a low speed, low rental plan? </p>
-                                <p class="faqp1">Your One8 plan is based solely on data consumption. Our thinking network constantly allocates the best speed, depending on what you are doing. If you want to switch to a lower rental, simply choose a smaller data package <a class="external" href="http://52.172.215.71/zeno/login"><b>here</b></a>. </p>
+                                <p class="faqp1">Your One8 plan is based solely on data consumption. Our thinking network constantly allocates the best speed, depending on what you are doing. If you want to switch to a lower rental, simply choose a smaller data package <a class="external" href="${pageContext.request.contextPath }/zeno"><b>here</b></a>. </p>
 
                                 <p class="faqp">Is there a fee for changing plans? </p>
                                 <p class="faqp1">Not at all! </p>
@@ -94,7 +94,7 @@
 
 
                                 <p class="faqp">I have finished my data for the month. How do I top up? 
-                                <p class="faqp1">Get your Top Up on the go <a class="external" href="http://52.172.215.71/zeno/login"><b>here</b></a>. It’s easy, quick and takes effect instant-ly. </p>
+                                <p class="faqp1">Get your Top Up on the go <a class="external" href="${pageContext.request.contextPath }/zeno"><b>here</b></a>. It’s easy, quick and takes effect instant-ly. </p>
 
 
                                 <h1 class="h1-font">Billing </h1>

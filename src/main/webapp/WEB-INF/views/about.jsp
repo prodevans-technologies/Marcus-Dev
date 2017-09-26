@@ -36,7 +36,7 @@
                             <a class="external" href="${pageContext.request.contextPath }/payBill">PAY BILL</a>
                         </li>                     
                         <li>
-                            <a class="external" href="http://52.172.215.71/zeno/login">MY ONE8</a>
+                            <a class="external" href="${pageContext.request.contextPath }/zeno">MY ONE8</a>
                         </li>  
                         <!-- <li>
                             <a href="#"><span class="glyphicon glyphicon-search"></span></a>
