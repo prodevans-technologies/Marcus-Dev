@@ -35,7 +35,7 @@
                             <a id="pay" class="external" href="${pageContext.request.contextPath }/payBill">PAY BILL</a>
                         </li>                     
                         <li>
-                            <a class="external" href="http://52.172.215.71/zeno/login">MY ONE8</a>
+                            <a class="external" href="${pageContext.request.contextPath }/zeno">MY ONE8</a>
                         </li>  
                         <!-- <li>
                             <a href="#"><span class="glyphicon glyphicon-search"></span></a>
@@ -104,7 +104,7 @@
                             </div>
                             <p class="sec2blkpara">Slide to explore plans</p>
                             <p class="sec2blktxt">Already a Customer? </p>
-                            <p class="sec2blktxt"> <a class="external" href="http://52.172.215.71/zeno/login">Log in to</a> check usage.</p>
+                            <p class="sec2blktxt"> <a class="external" href="${pageContext.request.contextPath }/zeno">Log in to</a> check usage.</p>
 
                         </div>
                         <!--  </div> top row -->
@@ -153,7 +153,7 @@
                                     <div class="col-md-12" ><p class="sec2slidetotext vplans" style="padding-bottom:8px;">Slide to explore plans</p></div>
                                     
                                     <div class="col-md-12" > <p class="sec2blktxt vplans" style="margin-bottom: 3px;">Already a Customer? </p></div>
-                                    <div class="col-md-12" ><p class="sec2blktxt vplans"> <a class="external" href="http://52.172.215.71/zeno/login">Log in to</a> change plans or check usage.</p></div>
+                                    <div class="col-md-12" ><p class="sec2blktxt vplans"> <a class="external" href="${pageContext.request.contextPath }/zeno">Log in to</a> change plans or check usage.</p></div>
                                 </div>
                             </div>
 
