@@ -214,7 +214,7 @@
                     <div class="col-md-1"> </div>
                     <div class="col-md-10">
                         <div align="center" style="padding-bottom:20px;">
-                            <img style="height: 70px; widows: 150px" id="money" src="images/no_hidden_cost.PNG" class="img-responsive " /> 
+                            <img style="height: 70px; widows: 150px" id="money" src="images/no_hidden_cost2.PNG" class="img-responsive " /> 
                         </div>
                         <p style="text-align:center;"><strong>NO HIDDEN COSTS</strong></p> 
 
