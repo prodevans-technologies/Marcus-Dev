@@ -50,7 +50,7 @@ public class SendMailController {
 
         if (session.getAttribute("successfull") != null) {
             session.removeAttribute("successfull");
-            model.addAttribute("msg2", "We’re glad you’ve chosen One8. Our customer care executive will get back to you shortly.");
+            model.addAttribute("msg2", "We're glad you've chosen One8. Our customer care executive will get back to you shortly.");
         }
 
         return new ModelAndView("newconnection", "newConnectionDetails", new SendMailDetails());
