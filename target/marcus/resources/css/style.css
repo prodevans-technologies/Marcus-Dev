@@ -1021,9 +1021,9 @@ a{
 
 .footer-bottom p.pull-left
 {
-    padding-top: 6px;
-    padding-left: 42px;
-    padding-right: 25px;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 40px;
 }
 
 /* end of footer */
@@ -1147,7 +1147,7 @@ textarea {
     background: #F44336;
     position: fixed;
     top: 150px;
-    right: 20px;
+    right: 37px;
     cursor: pointer;
     box-shadow: 0px 2px 5px #666;
 }
@@ -1165,7 +1165,7 @@ textarea {
     background: #9cafad;
     position: fixed;
     top: 150px;
-    right: 20px;
+    right: 37px;
     cursor: pointer;
     box-shadow: 0px 2px 5px #666;
 }
@@ -1196,8 +1196,6 @@ textarea {
     height: 29px;
     overflow: hidden;
     outline: none;
-
-
 }
 
 .styled-select select {

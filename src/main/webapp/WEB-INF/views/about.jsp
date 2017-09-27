@@ -136,7 +136,7 @@
                         <div class="col-md-2 nopadding"></div> 
                         <div class="col-md-8 nopadding">
                             <p style=" text-align: center; padding-top:20px; padding-bottom:20px;">To know what you’re paying for. To know where your data goes. 
-                                That’s the reason why our data plans are exactly about that - data. Choose any plan, rest assured of unparalleled streaming, surfing or downloading experience. 
+                                That’s the reason why our data plans are exactly about that - data. Choose any plan, rest assured of an unparalleled streaming, surfing or downloading experience. 
                                 No unnecessary speed caps (other than FUP) and no inaccurate speed tests. 
                                 Starting with simple plans and transparent billing, we're geared to move towards India's first pay-as-you-go model. </p>
                         </div>

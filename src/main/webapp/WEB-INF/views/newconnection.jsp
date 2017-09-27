@@ -56,27 +56,27 @@
                         </div>
                     </div>
                     <div class="col-md-12  "></div>
-                    
+                    <div class="row row-white" style="padding-bottom:3%;"> </div>
                     <div class="col-md-9 buttonright" align="right">
                         <button id="newconnection" type="submit" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
-                    <h3 style="color:green; text-align: center;">
-                                 	<b>
-											<c:if test="${ not empty msg2}">${msg2}</c:if>
-									</b>
-								</h3>
-                    </div>
+                        <h3 style="color:green; text-align: center;">
+                            <b>
+                                <c:if test="${ not empty msg2}">${msg2}</c:if>
+                                </b>
+                            </h3>
+                        </div>
 
                 </form:form>
 
             </section>
-            <div class="row row-white" style="padding-bottom:3%;"> </div>
+
         </div>
 
         <jsp:include page="components/floatnew.jsp"></jsp:include>
 
-        <!-- Main container end -->
+            <!-- Main container end -->
 
-        <!-- Footer -->
+            <!-- Footer -->
         <jsp:include page="components/footer.jsp"></jsp:include>
 
         <script src="js/jquery.min.js"></script>     

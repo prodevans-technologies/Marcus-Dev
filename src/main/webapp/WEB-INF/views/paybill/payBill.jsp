@@ -64,9 +64,9 @@
             </section>
 
             <section class="col-md-12 col-lg-12 nopadding"> 
-                <div class="row flex-row" style="background-color:#fff; margin: 1%; padding-top: 2%; padding-bottom: 2%; ">
+                <div class="row flex-row" style="background-color:#fff; margin: 2%; padding-top: 3%; padding-bottom: 3%; ">
                     <div class="col-md-4 valign "> </div>
-                    <div class="col-md-7 col-xs-12  nopadding" style=" float:right; box-shadow: 0px 2px 5px #666;" >
+                    <div class="col-md-7 col-xs-12  nopadding" style=" float:right; box-shadow: 0px 2px 5px #BDBDBD;" >
                         <form:form role="form" action="payBillRequest" method="post" modelAttribute="payBillDetails" >
                             <div class="col-md-12">
                                 <div class="col-md-1"></div>
@@ -86,34 +86,26 @@
                                     <form:input path="amount" type="text" id="amount" placeholder="Amount"  required="required"/>
                                 </div>
                             </div>
-
+                            <div class="row row-white" style="padding-bottom:3%;"> </div>
                             <div class="col-md-9"></div>
-                            <div class="col-md-2" align="right" style="padding-top: 1%;">
+
+                            <div class="col-md-2" align="right" >
                                 <button type="submit" class="btn btn-danger btn-xl buttonv"> PAY BILL </button>
                             </div>
+                            
                             <div class="col-md-1"></div>
+                            <div class="row row-white" style="padding-bottom:2%;"> </div>
                         </form:form>
                     </div>
                     <div class="col-md-1"></div>
                 </div>             
             </section>
         </div>
-        <div id="container-floating">
-            <div id="floating-button" data-toggle="tooltip">
-                <p class="plus valign" style="padding-top: 12px;" >
-                    <!-- <img src="images/wifi.png" height="20" width="20" /> -->
-                    <br>
-                    <a class="external fv" href="${pageContext.request.contextPath }/newconnection">
-                        NEW
-                        CONNECTION
-                    </a>
-                </p>
-            </div>
-        </div>
+        <jsp:include page="../components/float.jsp"></jsp:include>
 
-        <!-- Main container end -->
+            <!-- Main container end -->
 
-        <!-- Footer -->
+            <!-- Footer -->
         <jsp:include page="../components/footer.jsp"></jsp:include>
 
         <script src="js/jquery.min.js"></script>     

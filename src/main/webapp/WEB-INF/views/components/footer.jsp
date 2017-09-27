@@ -7,7 +7,7 @@
             <footer>
                 <div class="footer-bottom">
                     <div  >
-                        <p class="pull-left" style="font-size:13px;" > &copy; COPYRIGHT ONE8 TECHNOLOGIES <script type="text/JavaScript">document.write(new Date().getFullYear());</script></p>
+                        <p class="pull-left" style="font-size:13px; padding-top: 10px;" > &copy; COPYRIGHT ONE8 TECHNOLOGIES <script type="text/JavaScript">document.write(new Date().getFullYear());</script></p>
                         <div class="pull-right">
                             <ul class="nav nav-pills payments" style="font-size:13px;">
                                 <li><a style="color: #000" href="${pageContext.request.contextPath }/faq">FAQ</a></li>

@@ -4,14 +4,13 @@
 
     /*Floating button*/
     #floating-button{
-
         width: 65px;
         height: 65px;
         border-radius: 50%;
         background: #F44336;
         position: fixed;
         top: 150px;
-        right: 20px;
+        right: 37px;
         cursor: pointer;
         box-shadow: 0px 2px 5px #666;
     }
@@ -29,11 +28,11 @@
         background: #9cafad;
         position: fixed;
         top: 150px;
-        right: 20px;
+        right: 37px;
         cursor: pointer;
         box-shadow: 0px 2px 5px #666;
     }
-    @media (max-width : 730px) 
+    @media (max-width : 729px) 
     {
 
         /*Floating button*/
@@ -45,7 +44,7 @@
             background: #F44336;
             position: fixed;
             top: 150px;
-            right: 20px;
+            right: 37px;
             cursor: pointer;
             box-shadow: 0px 2px 5px #666;
         }
@@ -63,7 +62,7 @@
             background: #9cafad;
             position: fixed;
             top: 150px;
-            right: 20px;
+            right: 37px;
             cursor: pointer;
             box-shadow: 0px 2px 5px #666;
         }
@@ -71,7 +70,6 @@
 
     }
 </style>
-
 
 
 
