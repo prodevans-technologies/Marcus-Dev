@@ -15,6 +15,7 @@
                                 <li><a style="color: #000" href="${pageContext.request.contextPath }/privacy">PRIVACY POLICY</a></li>
                                 <li><a style="color: #000" href="${pageContext.request.contextPath }/refund">REFUND AND CANCELLATION</a></li>
                                 <li><a style="color: #000" href="${pageContext.request.contextPath }/contactus">CONTACT US</a></li>
+                            
                             </ul>                                     
                         </div>
                     </div>

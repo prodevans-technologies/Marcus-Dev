@@ -44,7 +44,7 @@
             background: #F44336;
             position: fixed;
             top: 150px;
-            right: 37px;
+            right: 20px;
             cursor: pointer;
             box-shadow: 0px 2px 5px #666;
         }
@@ -62,7 +62,7 @@
             background: #9cafad;
             position: fixed;
             top: 150px;
-            right: 37px;
+            right: 20px;
             cursor: pointer;
             box-shadow: 0px 2px 5px #666;
         }
@@ -76,7 +76,7 @@
 
 <div id="container-floating">
     <div id="floating-button" data-toggle="tooltip">
-        <p class="plus valign" style="padding-top: 10px; " >
+        <p class="plus valign" style="padding-top: 10px; ">
             <!-- <img src="images/wifi.png" height="20" width="20" /> -->
             <br>
             <a class="external fv" href="${pageContext.request.contextPath }/newconnection">

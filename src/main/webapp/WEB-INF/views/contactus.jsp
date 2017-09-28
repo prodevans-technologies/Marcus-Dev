@@ -95,10 +95,10 @@
                 </form:form>
 
             </section>
-            <jsp:include page="components/float.jsp"></jsp:include>
+            <jsp:include page="components/floatf.jsp"></jsp:include>
             </div>  <!-- Main container end -->   
             <!-- Footer -->
-        <jsp:include page="components/footer.jsp"></jsp:include>
+        <jsp:include page="components/footerf.jsp"></jsp:include>
         <script src="js/map.js"></script>  
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8lEpXR-Ni1-PLpVrs3V4ofgmKyK6OwYI&callback=initMap"></script>
         <script src="js/jquery.min.js"></script>     

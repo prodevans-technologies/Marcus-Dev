@@ -53,13 +53,13 @@
                         <div class="col-md-2"></div>
                     </div>
                    
-                     <jsp:include page="components/float.jsp"></jsp:include>
+                     <jsp:include page="components/floatf.jsp"></jsp:include>
             </section>
         </div>  
         <!-- Main container end -->   
 
         <!-- Footer -->
-        <jsp:include page="components/footer.jsp"></jsp:include>
+        <jsp:include page="components/footerf.jsp"></jsp:include>
 
         <script src="js/jquery.min.js"></script>     
         <script src="js/bootstrap.min.js"></script>     
