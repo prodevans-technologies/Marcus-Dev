@@ -59,7 +59,7 @@
     .logo-size
     {
         max-width:75px; 
-        margin-top: -20px;	
+        margin-top: -15px;	
 
     }
 
@@ -692,7 +692,7 @@ h1{
     }
     .fixed-header.scroll .navbar-toggle
     {
-        top: 8px;
+        top: 27px;
     }
     .navbar-toggle .icon-bar
     {
