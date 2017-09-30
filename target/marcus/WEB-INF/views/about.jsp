@@ -54,15 +54,8 @@
                     <div class="col-md-4 valign ">
                         <div>
                             <h1 style="color:white; text-align: center;">We are One8</h1> 
-                            <p style="color:white; text-align: center; padding: 0px 20px 0px 20px;">We are a next-generation hyper-
-                                convergence technology company and 
-                                we’re here to  enable the most 
-                                intelligent, intuitive and transparent 
-                                broadband network. That's geek speak 
-                                for an internet experience which gives 
-                                you lag-free access to the best the 
-                                World Wide Web offers at the highest 
-                                quality possible on your devices. </p>
+                            <p style="color:white; text-align: center; padding: 0px 20px 0px 20px;">
+                            We are a next-generation hyper-convergence technology company and we’re here to  enable the most intelligent, intuitive and transparent broadband network. That's geek speak for an internet experience which gives you lag-free access to the best the world Wide Web offers at the highest quality possible on your devices. </p>
                         </div>
                     </div>
                     <div class="col-md-8 nopadding" style="float:right;">

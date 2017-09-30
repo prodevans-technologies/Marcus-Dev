@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-md-12  "></div>
                     <div class="row row-white" style="padding-bottom:3%;"> </div>
-                    <div class="col-md-9 buttonright" align="right">
+                    <div class="col-md-9 buttonright" align="right" style="padding-right:1.75%;">
                         <button id="newconnection" type="submit" class="btn btn-danger btn-xl buttonv">SEND NOW</button>
                         <h3 style="color:green; text-align: center;">
                             <b>

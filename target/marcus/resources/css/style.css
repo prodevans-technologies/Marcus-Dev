@@ -521,7 +521,8 @@ h1{
     padding-bottom:15px;
     padding-left:0px;
     padding-right:0px;
-    box-shadow: 0px 2px 5px 0px #666;	
+    /*box-shadow: 0px 2px 5px 0px #666;*/
+    box-shadow: 0px 2px 5px #BDBDBD;	
 }
 
 .fixed-header.scroll .navbar-brand

@@ -20,8 +20,7 @@
                         <img class="logo-size" src="images/newlogo.png">
                     </a>
                 </div>             
-                <nav class="main-menu vpadding"
-                     > 
+                <nav class="main-menu vpadding"> 
                     <ul> 
                         <li>
                             <a href="${pageContext.request.contextPath }/#home">HOME</a>
@@ -104,9 +103,9 @@
                                 <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
                             </div>
                             <p class="sec2blkpara">Slide to explore plans</p>
-                           <!-- <p class="sec2blktxt">Already a Customer? </p>
-                            <p class="sec2blktxt"> <a class="external" href="${pageContext.request.contextPath }/zeno">Log in to</a> check usage.</p>
-                           -->
+                            <!-- <p class="sec2blktxt">Already a Customer? </p>
+                             <p class="sec2blktxt"> <a class="external" href="${pageContext.request.contextPath }/zeno">Log in to</a> check usage.</p>
+                            -->
                         </div>
                         <!--  </div> top row -->
                         <!-- </div> -->
@@ -148,14 +147,14 @@
                                     <div class="col-md-3 vcenter">
                                         <h4 class="sec2hd222"><span id="premium">PRO</span></h4>
                                     </div>
-                                    
+
                                     <div id="slider-text" class="col-md-11 vco hidden-xs" align="center" padding-right="5px"; padding-left="5px";>
                                         <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
                                     </div>
-                                    
+
                                     <div class="col-md-12" > <p class="sec2blktxt vplans" style="margin-bottom: 3%;"> </p></div>
-                        
-                                    
+
+
                                     <!--<div class="col-md-12" > <p class="sec2blktxt vplans" style="margin-bottom: 3px;">Already a Customer? </p></div>
                                     <div class="col-md-12" ><p class="sec2blktxt vplans"> <a class="external" href="${pageContext.request.contextPath }/zeno">Log in to</a> change plans or check usage.</p></div>-->
                                     <div class="col-md-12" ><p class="sec2slidetotext vplans" style="padding-bottom:8px;">Slide to explore plans</p></div>
@@ -167,8 +166,9 @@
                             <div class="col-md-4 sec2block vplan col2">
                                 <div> 
                                     <h3 class="plan_rs separating_line"><div id="dslidertextprice"/></h3> 
-                                    
-                                    <p class="sec2blktxt vplans" style=" padding-top:5px;"> &bull; &nbsp;<span id="dslidertextdata"> </span> &bull;&nbsp;<span id="dslidertextspeed"></span></p>
+
+                                    <p class="sec2blktxt vplans" style=" padding-top:5px;"> &bull; &nbsp;<span id="dslidertextdata"> </span></p>
+                                     <p class="sec2slidetotext vplans"> &bull;&nbsp;<span id="dslidertextspeed"></span></p>
                                     <p class="sec2slidetotext vplans" style="margin-bottom: 3px;"> &bull; &nbsp; Exclusive of GST</p>
                                     <div class="col-md-12 text-center sec2btnpadding" style="padding-top:10%;">
                                         <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                            
@@ -327,7 +327,7 @@
 
             <!-- Footer -->
         <jsp:include page="components/footer.jsp"></jsp:include>
-     
+
         <script src="js/jquery.min.js"></script>     
         <script src="js/bootstrap.min.js"></script>     
         <script src="js/jquery.singlePageNav.min.js"></script>     
@@ -335,7 +335,7 @@
         <script src="js/jquery.session.js"></script>
         <script src="js/nav.js"></script>    
         <script src="js/city.js"></script>
-           <script>
+        <script>
             $(window).ready(function () {
                 $('.col1').css('min-height', $('.col3').height() + 'px');
                 $('.col2').css('min-height', $('.col1').height() + 'px');
