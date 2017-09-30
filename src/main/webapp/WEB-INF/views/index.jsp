@@ -163,12 +163,12 @@
 
                             <!-- price display -->
 
-                            <div class="col-md-4 sec2block vplan col2">
+                            <div class="col-md-4 sec2block vplan valign col2">
                                 <div> 
                                     <h3 class="plan_rs separating_line"><div id="dslidertextprice"/></h3> 
 
-                                    <p class="sec2blktxt vplans" style=" padding-top:5px;"> &bull; &nbsp;<span id="dslidertextdata"> </span></p>
-                                     <p class="sec2slidetotext vplans"> &bull;&nbsp;<span id="dslidertextspeed"></span></p>
+                                    <p class="sec2blktxt vplans" style=" padding-top:5px;"> &bull; &nbsp;<span id="dslidertextdata"> </span>
+                                      &bull;&nbsp;<span id="dslidertextspeed"></span></p>
                                     <p class="sec2slidetotext vplans" style="margin-bottom: 3px;"> &bull; &nbsp; Exclusive of GST</p>
                                     <div class="col-md-12 text-center sec2btnpadding" style="padding-top:10%;">
                                         <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                            
