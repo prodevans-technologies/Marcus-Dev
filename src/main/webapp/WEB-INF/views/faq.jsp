@@ -37,7 +37,7 @@
                                 <p class="faqp1">Use upto 8 wifi-enabled devices (laptop, tablet, phone etc.), and that’s not all. Turn your TV into a smart TV — just plug it into the One8 Cube’s HDMI port. </p>
 
                                 <p class="faqp" >Can I download apps on the One8 Cube? </p>
-                                <p class="faqp1">Your One8 is pre-loaded with some of the most popular apps like Youtube, TED, Gmail, Facebook and more. Our team of app curators continuously refresh-es the selection, giving you the best range of pre-loaded apps to enjoy. And if there’s something more that you’re after, with our lag-free network, you can download unlimited apps on all your wifi enabled devices. </p>
+                                <p class="faqp1">Your One8 is pre-loaded with some of the most popular apps like Youtube, TED, Gmail, Facebook and more. Our team of app curators continuously refreshes the One8 Cube, giving you the best range of pre-loaded apps to enjoy. And if there’s something more that you’re after, with our lag-free network, you can download unlimited apps on all your wifi enabled devices. </p>
 
 
                                 <h1 class="h1-font">New Connection </h1>
@@ -47,7 +47,7 @@
 
 
                                 <p class="faqp">What is the cost of a new connection? </p>
-                                <p class="faqp1">Pay Rs 2600 for the One8 Cube and an installation service fee of Rs 750. Thereafter, depending on the plan you opt for, enjoy the convenience of post-paid bill-ing. Note: The given prices are exclusive of applicable taxes. </p>
+                                <p class="faqp1">Pay Rs 2600 for the One8 Cube and an installation service fee of Rs 750. Thereafter, depending on the plan you opt for, enjoy the convenience of post-paid billing. Note: The given prices are exclusive of applicable taxes. </p>
 
                                 <p class="faqp">What documents do I need to sign up? </p>
                                 <p class="faqp" >For One8 at home </p>
@@ -62,14 +62,14 @@
                                     VAT/GST Registration Certificate<br>
                                     Address Proof: Landline bill or Rental Agreement (if the registration address is different from the address for which connection is requested) <br>
                                     Latest Current Account Bank Statement<br>
-                                    Letter from Company requesting connection on Company Letterhead with Authorised Sig-nature and Chop<br>
+                                    Letter from Company requesting connection on Company Letterhead with Authorised Signature and Chop<br>
                                     Memorandum Of Articles Association (MOA) <br>
                                     Authorisation Letter from CEO/MD/Director: to authorise a person as primary signatory<br>
                                     - ID Proof of Authorised Signatory<br>
                                     -	Passport size Photo of Authorised Signatory </p>
 
                                 <p class="faqp">My connection has been activated in the middle of the month. How will this affect my bill or billing cycle? </p>
-                                <p class="faqp1">On activation, you will be charged the chosen plan cost. In the following month, we will credit the number of days that you have not used the One8 plan. For in-stance, if your connection was activated on 10th of September, you will be given a credit for 9 days usage in the next month’s billing, and the amount will be adjusted. The billing cy-cle spans 30 days, beginning on the 1st of every month. </p>
+                                <p class="faqp1">On activation, you will be charged the chosen plan cost. In the following month, we will credit the number of days that you have not used the One8 plan. For instance, if your connection was activated on 10th of September, you will be given a credit for 9 days usage in the next month’s billing, and the amount will be adjusted. The billing cy-cle spans 30 days, beginning on the 1st of every month. </p>
 
 
                                 <h1 class="h1-font">Plans </h1>
@@ -87,14 +87,14 @@
                                 <p class="faqp1">Not at all! </p>
 
                                 <p class="faqp">Can I carry forward my GB? </p>
-                                <p class="faqp1">If you opt for a plan with a bigger data package, your unused GB from the current month will be automatically adjusted against the new plan. If you are moving to a smaller data package, then your used data will be calculated — if it is more than the limit on your new plan, the FUP will take effect immediately.  </p>
+                                <p class="faqp1">If you opt for a plan with a bigger unused GB, your unused GB from the current month will be automatically adjusted against the new plan. If you are moving to a smaller data package, then your used data will be calculated — if it is more than the limit on your new plan, the FUP will take effect immediately.  </p>
 
                                 <p class="faqp">Can I upgrade my plan in the middle of a month? 
                                 <p class="faqp1">While you can change plans at any time, the new plan will only take ef-fect at the beginning of the next billing cycle. </p>
 
 
                                 <p class="faqp">I have finished my data for the month. How do I top up? 
-                                <p class="faqp1">Get your Top Up on the go <a class="external" href="${pageContext.request.contextPath }/zeno"><b>here</b></a>. It’s easy, quick and takes effect instant-ly. </p>
+                                <p class="faqp1">Get your Top Up on the go <a class="external" href="${pageContext.request.contextPath }/zeno"><b>here</b></a>. It’s easy, quick and takes effect instantly. </p>
 
 
                                 <h1 class="h1-font">Billing </h1>
@@ -109,7 +109,7 @@
                                 <h1 class="h1-font">Network </h1>
 
                                 <p class="faqp">What is the thinking network? </p>
-                                <p class="faqp1">There is a reason we call our network the thinking network — our power-packed analytics engine that continuously gauges the perfect speed you need for the applications you use in real time. The fact is that not every user in your home requires the same speed all the time because not every user is using the same application at the same time. The One8 network detects usage at an individual level and allocates speed according-ly to individual users— lower for an email, higher for streaming a video or a video confer-ence. What that means is that no matter what you are doing online, you will be doing it lag-free. That’s the power of the thinking network. </p>
+                                <p class="faqp1">There is a reason we call our network the thinking network — our power-packed analytics engine that continuously gauges the perfect speed you need for the applications you use in real time. The fact is that not every user in your home requires the same speed all the time because not every user is using the same application at the same time. The One8 network detects usage at an individual level and allocates speed accordingly to individual users— lower for an email, higher for streaming a video or a video conference. What that means is that no matter what you are doing online, you will be doing it lag-free. That’s the power of the thinking network. </p>
 
                                 <h1 class="h1-font">Complaints, Shifting and Deactivation </h1>
 
@@ -117,10 +117,10 @@
                                 <p class="faqp1">Simple. Just give us a call at +91 90196 02602 and we’ll get on the job ASAP. </p>  
 
                                 <p class="faqp">I am moving to a different neighbourhood. How do I shift my One8 connection? </p>
-                                <p class="faqp1">Raise a Service Request or call customer care at +91 90196 02602 for in-stant support. </p>
+                                <p class="faqp1">Raise a Service Request or call customer care at +91 90196 02602 for instant support. </p>
 
                                 <p class="faqp">How do I terminate my One8 connection? </p>
-                                <p class="faqp1">Click Service Request and opt for Termination. Our executives will con-tact you shortly. Service will be terminated subject to clearing of pending bills. </p>
+                                <p class="faqp1">Click Service Request and opt for Termination. Our executives will contact you shortly. Service will be terminated subject to clearing of pending bills. </p>
 
                                 <p class="faqp">Can I use my existing (non One8) connection with the One8 Cube? </p>
                                 <p class="faqp1">The One8 cube is configured to work exclusively with the One8 network to ensure security and quality of service. </p>
