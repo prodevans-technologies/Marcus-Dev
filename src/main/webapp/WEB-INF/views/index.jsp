@@ -133,7 +133,7 @@
                         <div class="row sec2row sec2blk_eq_ht col3">
                             <div class="col-md-2 col2" style=" margin-left:-20px;">    </div>
                             <!-- plan silder -->                                            
-                            <div class="col-md-4 sec2block vplans col1">
+                            <div class="col-md-4 sec2block vplans valign col1">
                                 <div> 
                                     <h3 class="sec2hd2" style="padding-top: 15px; padding-bottom:10px;">PLANS</h3>
                                     <div class="col-md-0 vcenter" ></div>
