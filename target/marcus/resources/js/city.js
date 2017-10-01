@@ -164,7 +164,7 @@ $("[data-slider]")
                     $("#dstandard").css('color', '#A9A9A9');
                     $("#dpremium").css('color', '#A9A9A9');
                     $("#dbasic").css('color', '#000000');
-                    $("#slidertextprice").html('&#8377; 200');
+                    $("#slidertextprice").html('&#8377; 849');
                     $("#slidertextdata").text('60 GB Data');
                     $("#slidertextspeed").text('512 Kbps Post FUP Speed');
                     $("#dslidertextprice").html('&#8377; 849');
@@ -180,7 +180,7 @@ $("[data-slider]")
                     $("#dbasic").css('color', '#A9A9A9');
                     $("#dpremium").css('color', '#A9A9A9');
                     $("#dstandard").css('color', '#000000');
-                    $("#slidertextprice").html('&#8377; 100');
+                    $("#slidertextprice").html('&#8377; 1199');
                     $("#slidertextdata").text('90 GB Data');
                     $("#slidertextspeed").text('512 Kbps Post FUP Speed');
                     $("#dslidertextprice").html('&#8377; 1199');
@@ -197,7 +197,7 @@ $("[data-slider]")
                     $("#dbasic").css('color', '#A9A9A9');
                     $("#dpremium").css('color', '#000000');
                     $("#dstandard").css('color', '#A9A9A9');
-                    $("#slidertextprice").html('&#8377; 300');
+                    $("#slidertextprice").html('&#8377; 1875');
                     $("#slidertextdata").text('150 GB Data');
                     $("#slidertextspeed").text('2 Mbps Post FUP Speed');
                     $("#dslidertextprice").html('&#8377; 1875');
