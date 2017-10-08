@@ -5,6 +5,7 @@ public class PayBillDetails
 
 	private String account_id;
 	private String email_id;
+        private String email;
 	private double amount;
 	
 	
@@ -15,6 +16,16 @@ public class PayBillDetails
 	private String address;
 	private String city;
 	private String pin;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+        
 	
 	public String getAccount_id() {
 		return account_id;
@@ -96,12 +107,12 @@ public class PayBillDetails
 		this.pin = pin;
 	}
 
-	@Override
-	public String toString() {
-		return "PayBillDetails [account_id=" + account_id + ", email_id=" + email_id + ", amount=" + amount
-				+ ", account_no=" + account_no + ", mobile=" + mobile + ", first_name=" + first_name + ", last_name="
-				+ last_name + ", address=" + address + ", city=" + city + ", pin=" + pin + "]";
-	}
+    @Override
+    public String toString() {
+        return "PayBillDetails{" + "account_id=" + account_id + ", email_id=" + email_id + ", email=" + email + ", amount=" + amount + ", account_no=" + account_no + ", mobile=" + mobile + ", first_name=" + first_name + ", last_name=" + last_name + ", address=" + address + ", city=" + city + ", pin=" + pin + '}';
+    }
+
+    
 	
 	
 	

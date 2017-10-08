@@ -35,7 +35,7 @@
                             <a id="pay" class="external" href="${pageContext.request.contextPath }/payBill">PAY BILL</a>
                         </li>                     
                         <li>
-                            <a class="external" href="${pageContext.request.contextPath }/zeno" target="_blank" target="_blank">MY ONE8</a>
+                            <a class="external" href="${pageContext.request.contextPath }/zeno" target="_blank">MY ONE8</a>
                         </li>  
                         <!-- <li>
                             <a href="#"><span class="glyphicon glyphicon-search"></span></a>
@@ -73,7 +73,7 @@
 
             <!-- Never run out -->
             <section class="col-md-12 col-lg-12" id="plans"> 
-                <div class="row" style="padding-top:60px;padding-bottom:20px;">
+                <div class="row" style="padding-bottom:0px;">
                     <h1 class="h1-font font-black text-align-center">Never run out</h1>
                     <div class="row" style="padding-bottom:20px;">
                         <p class="p-font font-black text-align-center">Three simple data plans. Easy top ups. Instant credits. So you never miss a beat.</p>
@@ -94,17 +94,27 @@
                     <div class="row sec2row sec2blk_eq_ht">
                         <div class="col-md-1"> </div>
                         <div class="col-md-6 sec2block " style="padding-top:10px; padding-bottom:10px;">
-
                             <h2 class="sec5hd2 text-align-center">PLANS</h2>
-
-                            <h4 class="text-align-center" ><span id="dbasic">STARTER</span>&nbsp;&nbsp;<span id="dstandard">POWER</span>&nbsp;&nbsp;<span id="dpremium">PRO</span></h4>
+                            <div style="padding-bottom:2em;">
+                            <div class="col-xs-4 vcenter" >
+                                        <h4 class="sec2hd22"><span id="dbasic">STARTER </span></h4>
+                                    </div>
+                                    <div class="col-xs-4 vcenter" align="center">
+                                        <h4 class="sec2hd2"><span id="dstandard">POWER</span></h4>
+                                    </div>
+                                    <div class="col-xs-3 vcenter">
+                                        <h4 class="sec2hd222"><span id="dpremium">PRO</span></h4>
+                                    </div>
+                            </div>
+                            
+                            <!--<h4 class="text-align-center" ><span id="dbasic">STARTER</span>&nbsp;&nbsp;<span id="dstandard">POWER</span>&nbsp;&nbsp;<span id="dpremium">PRO</span></h4>-->
 
                             <div id="slider-text" align="center">
                                 <input type="text" data-slider="true" data-slider-values="0,100,200" data-slider-equal-steps="true" data-slider-snap="true">
                             </div>
                             <p class="sec2blkpara">Slide to explore plans</p>
                             <!-- <p class="sec2blktxt">Already a Customer? </p>
-                             <p class="sec2blktxt"> <a class="external" href="${pageContext.request.contextPath }/zeno" target="_blank">Log in to</a> check usage.</p>
+                             <p class="sec2blktxt"> <a class="external" href="${pageContext.request.contextPath }/zeno">Log in to</a> check usage.</p>
                             -->
                         </div>
                         <!--  </div> top row -->
@@ -156,7 +166,7 @@
 
 
                                     <!--<div class="col-md-12" > <p class="sec2blktxt vplans" style="margin-bottom: 3px;">Already a Customer? </p></div>
-                                    <div class="col-md-12" ><p class="sec2blktxt vplans"> <a class="external" href="${pageContext.request.contextPath }/zeno" target="_blank">Log in to</a> change plans or check usage.</p></div>-->
+                                    <div class="col-md-12" ><p class="sec2blktxt vplans"> <a class="external" href="${pageContext.request.contextPath }/zeno">Log in to</a> change plans or check usage.</p></div>-->
                                     <div class="col-md-12" ><p class="sec2slidetotext vplans" style="padding-bottom:8px;">Slide to explore plans</p></div>
                                 </div>
                             </div>
@@ -169,7 +179,7 @@
 
                                     <p class="sec2blktxt vplans" style=" padding-top:5px;"> &bull; &nbsp;<span id="dslidertextdata"> </span>
                                       &bull;&nbsp;<span id="dslidertextspeed"></span></p>
-                                    <p class="sec2slidetotext vplans" style="margin-bottom: 3px;"> &bull; &nbsp; Exclusive of GST</p>
+                                    <p class="sec2slidetotext vplans" > &bull; &nbsp; Exclusive of GST</p>
                                     <div class="col-md-12 text-center sec2btnpadding" style="padding-top:10%;">
                                         <a class="external"  href="${pageContext.request.contextPath }/newconnection"><button type="button" class="btn btn-danger btn-xl buttonv">SIGN ME UP</button></a>                            
                                     </div>
@@ -180,7 +190,7 @@
                     </div>
                 </div> <!-- mobile and firefox -->
 
-                <div class="row row-white" style="padding-bottom:60px;"> </div>
+                
             </section>
 
             <!-- Never Slow DOwn -->

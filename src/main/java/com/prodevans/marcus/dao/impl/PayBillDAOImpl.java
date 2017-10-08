@@ -40,7 +40,7 @@ public class PayBillDAOImpl implements PayBillDAO
 		bill.setAddress((String) result.get("address"));
 		bill.setCity((String)result.get("cityname"));
 		bill.setPin((String)result.get("pin"));
-		
+		bill.setEmail((String)result.get("email"));
 		return bill;
 	
 	}
