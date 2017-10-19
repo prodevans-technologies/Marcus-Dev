@@ -41,12 +41,12 @@
                                 <div class="row row-white" style="padding-top: 4%; padding-bottom:3%;"> </div>
                                 <p class="faqp" style="padding-left: 20px;  text-align:left;">Contact</p> 
                                 <p class="faqp1"  style="padding-left: 20px; text-align:left; padding-bottom: -5px;">
-                                    +91 90196 02602
+                                    <a style="font-size: 15px" href="tel:+919019602602">+91 90196 02602</a>
                                 </p>
                                 <div class="row row-white" style="padding-top: 3%; padding-bottom:6%;"> </div>
                                 <p class="faqp"  style="padding-left: 20px; text-align:left; padding-bottom: -5px;">Mail</p> 
                                 <p class="faqp1" style="padding-left: 20px; text-align:left; padding-bottom: -5px;">
-                                    info@oneeight.co.in
+                                    <a style="font-size: 15px" href="mailto:info@oneeight.co.in">info@oneeight.co.in</a>
                                 </p>
                             </div>
                         </div>

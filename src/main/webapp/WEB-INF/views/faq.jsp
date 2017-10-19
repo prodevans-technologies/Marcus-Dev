@@ -69,7 +69,7 @@
                                     -	Passport size Photo of Authorised Signatory </p>
 
                                 <p class="faqp">My connection has been activated in the middle of the month. How will this affect my bill or billing cycle? </p>
-                                <p class="faqp1">On activation, you will be charged the chosen plan cost. In the following month, we will credit the number of days that you have not used the One8 plan. For instance, if your connection was activated on 10th of September, you will be given a credit for 9 days usage in the next month’s billing, and the amount will be adjusted. The billing cy-cle spans 30 days, beginning on the 1st of every month. </p>
+                                <p class="faqp1">On activation, you will be charged the chosen plan cost. In the following month, we will credit the number of days that you have not used the One8 plan. For instance, if your connection was activated on 10th of September, you will be given a credit for 9 days usage in the next month’s billing, and the amount will be adjusted. The billing cycle spans 30 days, beginning on the 1st of every month. </p>
 
 
                                 <h1 class="h1-font">Plans </h1>

@@ -321,7 +321,7 @@
                 <div class="row" style="padding-top:0px; padding-bottom:20px;">
                     <div class="col-md-12">
                         <h1 style="text-align:center;">24/7 Support</h1> 
-                        <p style="text-align:center;">Call +91 90196 02602, and we’ll make sure your network never stops. </p> 
+                        <p style="text-align:center;">Call <a style="font-size: 19px" href="tel:+919019602602">+91 90196 02602</a>, and we’ll make sure your network never stops. </p> 
                     </div>
                 </div>
                 <div class="row">
